@@ -1,24 +1,0 @@
-[?2004h]0;~[01;34m~[00m$ [K]0;~[01;34m~[00m$ y
-[?2004lbash: y: command not found
-[?2004h]0;~[01;34m~[00m$ Y
-[?2004lbash: Y: command not found
-[?2004h]0;~[01;34m~[00m$ [3mpip3 uninstall matplotlib[23m
-M[C[C[Cpip3 uninstall matplotlib
-M
-[?2004lFound existing installation: matplotlib 3.8.0
-Uninstalling matplotlib-3.8.0:
-  Would remove:
-    /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/.local/lib/python3.10/site-packages/matplotlib-3.8.0.dist-info/*
-    /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/.local/lib/python3.10/site-packages/matplotlib/*
-    /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/.local/lib/python3.10/site-packages/mpl_toolkits/axes_grid1/*
-    /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/.local/lib/python3.10/site-packages/mpl_toolkits/axisartist/*
-    /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/.local/lib/python3.10/site-packages/mpl_toolkits/mplot3d/*
-    /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/.local/lib/python3.10/site-packages/pylab.py
-Proceed (Y/n)? Y
-  Successfully uninstalled matplotlib-3.8.0
-[?2004h]0;~[01;34m~[00m$ [3mpip3 install matplotlib[23m
-M[C[C[Cpip3 install matplotlib
-M
-[?2004lDefaulting to user installation because normal site-packages is not writeable
-Requirement already satisfied: matplotlib in /usr/lib/python3/dist-packages (3.5.2)
-[?2004h]0;~[01;34m~[00m$ 
