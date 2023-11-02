@@ -1,0 +1,759 @@
+***
+
+Logging to "/projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/.smc/logs/log" via the debug module
+with  DEBUG='cocalc:*,-cocalc:silly:*'.
+Use   DEBUG_FILE='path' and DEBUG_CONSOLE=[yes|no] to override.
+Using DEBUG='cocalc:*,-cocalc:silly:*' to control log levels.
+
+***2023-11-02T16:22:22.418Z: cocalc:debug:project:common MAX_FILE_SIZE = 10000000 bytes
+2023-11-02T16:22:22.553Z: cocalc:debug:env-to-number envToInt: using fallback value 100 for JUPYTER_BLOBSTORE_DISK_PRUNE_SIZE_MB
+2023-11-02T16:22:22.553Z: cocalc:debug:env-to-number envToInt: using fallback value 200 for JUPYTER_BLOBSTORE_DISK_PRUNE_ENTRIES
+2023-11-02T16:22:22.892Z: cocalc:info:project:client DEBUG = false
+2023-11-02T16:22:23.071Z: cocalc:info:project:project-main daemonize the process
+2023-11-02T16:22:23.072Z: cocalc:info:project:init kucalc initializing state related to KuCalc
+2023-11-02T16:22:23.072Z: cocalc:info:project:init kucalc NOT running in kucalc
+2023-11-02T16:22:23.072Z: cocalc:debug:project:project:project-setup is_free_project: false
+2023-11-02T16:22:23.073Z: cocalc:debug:project:project:project-setup set_extra_env: {}
+2023-11-02T16:22:23.073Z: cocalc:info:project:dedicated-disks initializing
+2023-11-02T16:22:23.073Z: cocalc:info:project:project-main main init function
+2023-11-02T16:22:23.073Z: cocalc:info:project:project-main initialize INFO.json file
+2023-11-02T16:22:23.074Z: cocalc:info:project:info-json init initializing the info.json file...
+2023-11-02T16:22:23.085Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{}}
+2023-11-02T16:22:23.087Z: cocalc:info:project:init-script "/projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/project_init.sh" does not exist
+2023-11-02T16:22:23.089Z: cocalc:info:project:info-json init Successfully wrote "/projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/.smc/info.json"
+2023-11-02T16:22:23.089Z: cocalc:info:project:project-main create Client interface
+2023-11-02T16:22:23.090Z: cocalc:info:project:project-main create all the servers...
+2023-11-02T16:22:23.090Z: cocalc:info:project:init-project-server Write pid file to disk.
+2023-11-02T16:22:23.091Z: cocalc:info:project:secret-token checking for secret token in "/projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/.smc/secret_token"
+2023-11-02T16:22:23.091Z: cocalc:info:project:secret-token creating '/projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/.smc/secret_token'
+2023-11-02T16:22:23.154Z: cocalc:debug:jupyter:pool replenishPool {"name":"python3-ubuntu","opts":{"env":{"COCALC_JUPYTER_KERNELNAME":"python3-ubuntu","PLOTLY_RENDERER":"colab"}}} {"size":1,"timeout_s":3600}
+2023-11-02T16:22:23.154Z: cocalc:debug:jupyter:pool replenishPool - creating a kernel {"name":"python3-ubuntu","opts":{"env":{"COCALC_JUPYTER_KERNELNAME":"python3-ubuntu","PLOTLY_RENDERER":"colab"}}}
+2023-11-02T16:22:23.166Z: cocalc:info:project:browser-http-server starting server...
+2023-11-02T16:22:23.166Z: cocalc:info:project:browser-http-server creating root symbolic link
+2023-11-02T16:22:23.170Z: cocalc:info:project:browser-http-server initializing directory listings server (DEPRECATED)
+2023-11-02T16:22:23.171Z: cocalc:info:project:browser-http-server initializing Jupyter support HTTP server
+2023-11-02T16:22:23.171Z: cocalc:info:jupyter-blobs:get blobstore type: sqlite
+2023-11-02T16:22:23.171Z: cocalc:debug:jupyter-blobs:sqlite jupyter BlobStore: constructor
+2023-11-02T16:22:23.728Z: cocalc:debug:jupyter-blobs:sqlite jupyter BlobStore: /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/.jupyter-blobs-v0.db opened fine
+2023-11-02T16:22:23.728Z: cocalc:info:project:browser-http-server initializing websocket server
+2023-11-02T16:22:23.729Z: cocalc:info:project:websocket-server Initalizing primus websocket server at "/cocalc/c7a1100d-10f9-4de1-b172-d38d7d09565f/raw/.smc/ws"...
+2023-11-02T16:22:23.777Z: cocalc:info:project:websocket-server waiting for clients to request primus.js (length=123203)...
+2023-11-02T16:22:23.777Z: cocalc:info:project:browser-http-server initializing file upload server
+2023-11-02T16:22:23.777Z: cocalc:info:project:upload configuring the upload endpoint
+2023-11-02T16:22:23.777Z: cocalc:info:project:browser-http-server initializing static server
+2023-11-02T16:22:23.777Z: cocalc:info:project:serve-static-files-to-browser initialize with base="/cocalc/c7a1100d-10f9-4de1-b172-d38d7d09565f/raw/"
+2023-11-02T16:22:23.777Z: cocalc:info:project:serve-static-files-to-browser serving up HOME="/projects/c7a1100d-10f9-4de1-b172-d38d7d09565f"
+2023-11-02T16:22:23.778Z: cocalc:debug:jupyter-http-server got blob store, setting up jupyter http server
+2023-11-02T16:22:23.778Z: cocalc:info:project:browser-http-server Started -- port=40867, host='127.0.0.1', base='/cocalc/c7a1100d-10f9-4de1-b172-d38d7d09565f/raw/'
+2023-11-02T16:22:23.785Z: cocalc:info:project:browser-http-server Writing port to /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/.smc/browser-server.port
+2023-11-02T16:22:23.786Z: cocalc:info:project:hub-tcp-server starting tcp server: project <--> hub...
+2023-11-02T16:22:23.786Z: cocalc:info:project:hub-tcp-server hub tcp_server listening 127.0.0.1:43417
+2023-11-02T16:22:23.787Z: cocalc:info:project:project-main create public paths watcher...
+2023-11-02T16:22:26.126Z: cocalc:debug:project:websocket-server serving up primus.js to a specific client
+2023-11-02T16:22:26.260Z: cocalc:info:project:hub-tcp-server *new* connection from 127.0.0.1
+2023-11-02T16:22:26.260Z: cocalc:debug:locked-socket unlockSocket: waiting for secret token...
+2023-11-02T16:22:26.260Z: cocalc:debug:locked-socket unlockSocket: SUCCESS
+2023-11-02T16:22:26.303Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"hello","...":"..."}
+2023-11-02T16:22:26.303Z: cocalc:info:project:handle-message-from-hub hello from hub -- sending back our version = 1686327092
+2023-11-02T16:22:26.304Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:22:26.304Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:22:26.324Z: cocalc:debug:project:websocket-api new connection from 198.137.18.240 -- 2s46VUX1IBqGgS_3l2nb9
+2023-11-02T16:22:26.367Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"exec","opts":{"path":"","command":"cc-new-file","args":["git.term"],"timeout":10,"bash":false,"err_on_exit":true}} REQUEST
+2023-11-02T16:22:26.368Z: cocalc:debug:execute-code input: cc-new-file git.term
+2023-11-02T16:22:26.368Z: cocalc:debug:execute-code spawning cc-new-file with args ["git.term"] and timeout 10 seconds
+2023-11-02T16:22:26.390Z: cocalc:debug:execute-code listening for stdout, stderr and exit_code...
+2023-11-02T16:22:26.390Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"configuration","aspect":"main","no_cache":true} REQUEST
+2023-11-02T16:22:26.391Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"project_info"} REQUEST
+2023-11-02T16:22:26.392Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"project_info"} FINISHED: time=1ms
+2023-11-02T16:22:26.393Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"synctable_channel","query":{"listings":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","path":null,"listing":null,"time":null,"interest":null,"missing":null,"error":null,"deleted":null}]},"options":[]} REQUEST
+2023-11-02T16:22:26.393Z: cocalc:debug:project:websocket-api synctable_channel {"listings":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","path":null,"listing":null,"time":null,"interest":null,"missing":null,"error":null,"deleted":null}]} sync:31739f70f782515f817330273a75a3a73ca0a1fc
+2023-11-02T16:22:26.394Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  creating new sync channel (persistent=false, ephemeral=false)
+2023-11-02T16:22:26.394Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  init_handlers
+2023-11-02T16:22:26.394Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  init_synctable
+2023-11-02T16:22:26.394Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  init_synctable -- persistent (but no changefeeds)
+2023-11-02T16:22:26.394Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  created synctable -- waiting for connected state
+2023-11-02T16:22:26.396Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"synctable_channel","query":{"project_info":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","info":null}]},"options":[{"ephemeral":true}]} REQUEST
+2023-11-02T16:22:26.396Z: cocalc:debug:project:websocket-api synctable_channel {"project_info":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","info":null}]} sync:3927457dd35e819ed50b8d0b80f5084343f6e0df
+2023-11-02T16:22:26.396Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  creating new sync channel (persistent=false, ephemeral=true)
+2023-11-02T16:22:26.396Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  init_handlers
+2023-11-02T16:22:26.396Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  init_synctable
+2023-11-02T16:22:26.396Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  init_synctable -- ephemeral (no database)
+2023-11-02T16:22:26.396Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  created synctable -- waiting for connected state
+2023-11-02T16:22:26.396Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"synctable_channel","query":{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]},"options":[{"ephemeral":true}]} REQUEST
+2023-11-02T16:22:26.396Z: cocalc:debug:project:websocket-api synctable_channel {"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]} sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6
+2023-11-02T16:22:26.397Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  creating new sync channel (persistent=false, ephemeral=true)
+2023-11-02T16:22:26.397Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  init_handlers
+2023-11-02T16:22:26.397Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  init_synctable
+2023-11-02T16:22:26.397Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  init_synctable -- ephemeral (no database)
+2023-11-02T16:22:26.397Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  created synctable -- waiting for connected state
+2023-11-02T16:22:26.398Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  created synctable -- now connected
+2023-11-02T16:22:26.398Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  broadcast_synctable_to_browsers
+2023-11-02T16:22:26.398Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  created synctable -- now connected
+2023-11-02T16:22:26.398Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  broadcast_synctable_to_browsers
+2023-11-02T16:22:26.398Z: cocalc:debug:project:websocket-api register_project_info_table
+2023-11-02T16:22:26.398Z: cocalc:debug:project:websocket-api project_info register
+2023-11-02T16:22:26.398Z: cocalc:debug:project:project-info:server start
+2023-11-02T16:22:26.416Z: cocalc:debug:project:websocket-api register_project_status_table
+2023-11-02T16:22:26.416Z: cocalc:debug:project:websocket-api project_status register
+2023-11-02T16:22:26.416Z: cocalc:debug:project:ProjectStatusServer start
+2023-11-02T16:22:26.416Z: cocalc:debug:project:project-info:server project-info/server: already running, cannot be started twice
+2023-11-02T16:22:26.417Z: cocalc:debug:project:websocket-api project_status status_server event 'status' undefined
+2023-11-02T16:22:26.419Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:26.420Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"synctable_channel","query":{"project_info":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","info":null}]},"options":[{"ephemeral":true}]} FINISHED: time=24ms
+2023-11-02T16:22:26.420Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"synctable_channel","query":{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]},"options":[{"ephemeral":true}]} FINISHED: time=24ms
+2023-11-02T16:22:26.421Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"d9c78381-1b81-41c2-a68b-f9c2f1209c64","...":"..."}
+2023-11-02T16:22:26.425Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:26.436Z: cocalc:debug:execute-code finished exec of cc-new-file took 0.06800007820129395 seconds
+2023-11-02T16:22:26.436Z: cocalc:debug:execute-code stdout=  stderr=  exit_code= 0
+2023-11-02T16:22:26.436Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"exec","opts":{"path":"/projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/","command":"cc-new-file","args":["git.term"],"timeout":10,"bash":false,"err_on_exit":true,"ulimit_timeout":true,"verbose":true,"home":"/projects/c7a1100d-10f9-4de1-b172-d38d7d09565f"}} FINISHED: time=69ms
+2023-11-02T16:22:26.440Z: cocalc:debug:project:websocket-api project_info: channel: new connection from 198.137.18.240 -- 2s46VUX1IBqGgS_3l2nb9:o1plw08jy3l:project_info
+2023-11-02T16:22:26.444Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:26.444Z: cocalc:debug:project:ProjectStatusServer emitInfo[last=0] {"alerts":[],"usage":{"disk_mb":508978.3984375},"version":1686327092}
+2023-11-02T16:22:26.444Z: cocalc:debug:project:websocket-api project_status status_server event 'status' undefined
+2023-11-02T16:22:26.445Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:26.466Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  new connection from (address=198.137.18.240, conn=2s46VUX1IBqGgS_3l2nb9) -- 2s46VUX1IBqGgS_3l2nb9:o1bmxb387cr:sync:3927457dd35e819ed50b8d0b80f5084343f6e0df -- num_connections = 1 (from this client = 1)
+2023-11-02T16:22:26.467Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_synctable_to_browser
+2023-11-02T16:22:26.467Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  new connection from (address=198.137.18.240, conn=2s46VUX1IBqGgS_3l2nb9) -- 2s46VUX1IBqGgS_3l2nb9:1d3xdcca94l:sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6 -- num_connections = 1 (from this client = 1)
+2023-11-02T16:22:26.467Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  send_synctable_to_browser
+2023-11-02T16:22:26.484Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"61d27ad4-ddb0-4ece-b602-191e51fabd66","...":"..."}
+2023-11-02T16:22:26.486Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  created synctable -- now connected
+2023-11-02T16:22:26.486Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  broadcast_synctable_to_browsers
+2023-11-02T16:22:26.486Z: cocalc:debug:project:websocket-api register_listings_table
+2023-11-02T16:22:26.486Z: cocalc:debug:project:websocket-api listings_table register
+2023-11-02T16:22:26.487Z: cocalc:debug:project:websocket-api listings_table trim_old_paths
+2023-11-02T16:22:26.487Z: cocalc:debug:project:websocket-api listings_table trim_old_paths -47
+2023-11-02T16:22:26.487Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"synctable_channel","query":{"listings":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","path":null,"listing":null,"time":null,"interest":null,"missing":null,"error":null,"deleted":null}]},"options":[]} FINISHED: time=94ms
+2023-11-02T16:22:26.494Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"realpath","path":"git.term"} REQUEST
+2023-11-02T16:22:26.495Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"realpath","path":"git.term"} FINISHED: time=1ms
+2023-11-02T16:22:26.562Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  new connection from (address=198.137.18.240, conn=2s46VUX1IBqGgS_3l2nb9) -- 2s46VUX1IBqGgS_3l2nb9:g0fs7yc8lsw:sync:31739f70f782515f817330273a75a3a73ca0a1fc -- num_connections = 1 (from this client = 1)
+2023-11-02T16:22:26.562Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_synctable_to_browser
+2023-11-02T16:22:26.562Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"configuration","aspect":"main","no_cache":false} REQUEST
+2023-11-02T16:22:26.614Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  handle_mesg_from_browser  undefined
+2023-11-02T16:22:26.616Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:22:26.616Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:22:26.617Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:26.617Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:22:26.617Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:22:26.617Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:22:26.618Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:26.636Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:26.637Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:22:26.637Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:22:26.637Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:22:26.638Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:26.638Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:22:26.638Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:22:26.638Z: cocalc:debug:project:fs-watcher: initalizing: poll=false
+2023-11-02T16:22:26.661Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:26.663Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:22:26.663Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:22:26.665Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:26.665Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:22:26.665Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:22:26.665Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"f1fadb8c-a570-42e4-94f8-052b05e9b671","...":"..."}
+2023-11-02T16:22:26.672Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"configuration","aspect":"main","no_cache":true} FINISHED: time=282ms
+2023-11-02T16:22:26.691Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:22:26.694Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:26.694Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:22:26.694Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:22:26.754Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"4a0360c0-ff47-4bad-af10-d63bb76cefef","...":"..."}
+2023-11-02T16:22:26.811Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"configuration","aspect":"main","no_cache":false} FINISHED: time=249ms
+2023-11-02T16:22:26.842Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"929734aa-6bc4-4de2-8005-3bf8b3ec381f","...":"..."}
+2023-11-02T16:22:26.959Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  spark event -- end connection 198.137.18.240 -- 2s46VUX1IBqGgS_3l2nb9:1d3xdcca94l:sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6  -- num_connections = 0  (from this client = 0)
+2023-11-02T16:22:26.959Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  check_if_should_close --  0  -- do a save and maybe close
+2023-11-02T16:22:26.959Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  save_and_close_if_possible: no connections, so saving...
+2023-11-02T16:22:26.959Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  save_and_close_if_possible: after save there are 0 connections and delay=0
+2023-11-02T16:22:26.959Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  save_and_close_if_possible: close this SyncTableChannel atomically
+2023-11-02T16:22:26.959Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  close: closing
+2023-11-02T16:22:26.960Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  close: closing
+2023-11-02T16:22:26.960Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  close: closed
+2023-11-02T16:22:26.960Z: cocalc:debug:project:websocket-api project_status close
+2023-11-02T16:22:27.030Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"synctable_channel","query":{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]},"options":[{"ephemeral":true}]} REQUEST
+2023-11-02T16:22:27.030Z: cocalc:debug:project:websocket-api synctable_channel {"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]} sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6
+2023-11-02T16:22:27.030Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  creating new sync channel (persistent=false, ephemeral=true)
+2023-11-02T16:22:27.030Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  init_handlers
+2023-11-02T16:22:27.030Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  init_synctable
+2023-11-02T16:22:27.030Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  init_synctable -- ephemeral (no database)
+2023-11-02T16:22:27.030Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  created synctable -- waiting for connected state
+2023-11-02T16:22:27.031Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  created synctable -- now connected
+2023-11-02T16:22:27.031Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  broadcast_synctable_to_browsers
+2023-11-02T16:22:27.031Z: cocalc:debug:project:websocket-api register_project_status_table
+2023-11-02T16:22:27.031Z: cocalc:debug:project:websocket-api register_project_status_table: cleaning up an already existing one
+2023-11-02T16:22:27.031Z: cocalc:debug:project:websocket-api project_status register
+2023-11-02T16:22:27.031Z: cocalc:debug:project:ProjectStatusServer project-status/server: already running, cannot be started twice
+2023-11-02T16:22:27.031Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"synctable_channel","query":{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]},"options":[{"ephemeral":true}]} FINISHED: time=1ms
+2023-11-02T16:22:27.087Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  new connection from (address=198.137.18.240, conn=2s46VUX1IBqGgS_3l2nb9) -- 2s46VUX1IBqGgS_3l2nb9:gdkx88pbr1:sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6 -- num_connections = 1 (from this client = 1)
+2023-11-02T16:22:27.088Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  send_synctable_to_browser
+2023-11-02T16:22:27.663Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"terminal","path":".git.term-0.term","options":{"env":{"MPLBACKEND":"Agg"},"path":"git.term"}} REQUEST
+2023-11-02T16:22:27.669Z: cocalc:debug:project:websocket-api terminal init_term terminal:.git.term-0.term pid= 132909 command= /bin/bash args []
+2023-11-02T16:22:27.669Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"terminal","path":".git.term-0.term","options":{"env":{"MPLBACKEND":"Agg"},"path":"git.term"}} FINISHED: time=6ms
+2023-11-02T16:22:27.772Z: cocalc:debug:project:websocket-api terminal channel new connection from 198.137.18.240 -- 2s46VUX1IBqGgS_3l2nb9:yludfyevka6:terminal:.git.term-0.term
+2023-11-02T16:22:27.787Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"exec","opts":{"path":"","command":"touch","args":["git.term"],"timeout":30,"bash":false,"err_on_exit":true}} REQUEST
+2023-11-02T16:22:27.787Z: cocalc:debug:execute-code input: touch git.term
+2023-11-02T16:22:27.787Z: cocalc:debug:execute-code spawning touch with args ["git.term"] and timeout 30 seconds
+2023-11-02T16:22:27.797Z: cocalc:debug:execute-code listening for stdout, stderr and exit_code...
+2023-11-02T16:22:27.798Z: cocalc:debug:execute-code finished exec of touch took 0.01100015640258789 seconds
+2023-11-02T16:22:27.798Z: cocalc:debug:execute-code stdout=  stderr=  exit_code= 0
+2023-11-02T16:22:27.799Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"exec","opts":{"path":"/projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/","command":"touch","args":["git.term"],"timeout":30,"bash":false,"err_on_exit":true,"ulimit_timeout":true,"verbose":true,"home":"/projects/c7a1100d-10f9-4de1-b172-d38d7d09565f"}} FINISHED: time=12ms
+2023-11-02T16:22:27.872Z: cocalc:debug:project:websocket-api terminal cwd sent back: /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f
+2023-11-02T16:22:28.007Z: cocalc:debug:project:websocket-api terminal cwd sent back: /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f
+2023-11-02T16:22:28.073Z: cocalc:debug:project:websocket-api terminal cwd sent back: /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f
+2023-11-02T16:22:28.445Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:28.450Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:29.352Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:22:29.354Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:29.354Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:22:29.354Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:22:29.402Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"ce55e327-6e50-4461-b1eb-9cc0e0f66dd9","...":"..."}
+2023-11-02T16:22:30.308Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"configuration","aspect":"main","no_cache":false} REQUEST
+2023-11-02T16:22:30.308Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"configuration","aspect":"main","no_cache":false} REQUEST
+2023-11-02T16:22:30.308Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"configuration","aspect":"main","no_cache":false} REQUEST
+2023-11-02T16:22:30.308Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"configuration","aspect":"main","no_cache":false} FINISHED: time=0ms
+2023-11-02T16:22:30.308Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"configuration","aspect":"main","no_cache":false} FINISHED: time=0ms
+2023-11-02T16:22:30.308Z: cocalc:debug:project:websocket-api primus-api request {"cmd":"configuration","aspect":"main","no_cache":false} FINISHED: time=0ms
+2023-11-02T16:22:30.451Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:30.460Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:32.461Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:32.466Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:34.468Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:34.473Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:36.474Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:36.479Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:38.481Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:38.493Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:40.495Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:40.499Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:40.727Z: cocalc:debug:project:websocket-api terminal cwd sent back: /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f
+2023-11-02T16:22:40.728Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:22:40.730Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:40.731Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:22:40.731Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:22:40.780Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"05336eb6-7c53-4680-b596-7eaf1761de4d","...":"..."}
+2023-11-02T16:22:42.501Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:42.506Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:42.767Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:22:42.769Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:42.770Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:22:42.770Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:22:42.830Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"ed532132-8785-4328-adfa-083691b6f56c","...":"..."}
+2023-11-02T16:22:44.387Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  handle_mesg_from_browser  undefined
+2023-11-02T16:22:44.387Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:22:44.387Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:22:44.387Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:44.436Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"8feca637-a538-41ab-bb44-6128589129b6","...":"..."}
+2023-11-02T16:22:44.508Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:44.513Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:46.514Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:46.518Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:48.519Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/cpu,cpuacct/cpuacct.usage"}
+2023-11-02T16:22:48.523Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:50.525Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:50.537Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:52.539Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:52.543Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:53.085Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{"{\"name\":\"python3-ubuntu\",\"opts\":{\"env\":{\"COCALC_JUPYTER_KERNELNAME\":\"python3-ubuntu\",\"PLOTLY_RENDERER\":\"colab\"}}}":1698945750734}}
+2023-11-02T16:22:54.545Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:54.582Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:56.261Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:22:56.261Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:22:56.591Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:56.611Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:58.063Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:22:58.065Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:22:58.065Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:22:58.065Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:22:58.127Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"840d3ad9-3aef-482d-a0f4-dca20774f04f","...":"..."}
+2023-11-02T16:22:58.612Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:22:58.617Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:00.332Z: cocalc:debug:project:websocket-api terminal cwd sent back: /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f
+2023-11-02T16:23:00.618Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:00.625Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:02.626Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:02.630Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:04.632Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:04.646Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:06.648Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:06.652Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:08.653Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:08.657Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:10.658Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/cpu,cpuacct/cpuacct.usage"}
+2023-11-02T16:23:10.674Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:12.675Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:12.680Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:13.063Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:23:13.066Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:13.066Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:23:13.067Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:23:13.117Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"e24c7182-ac2a-42b9-b3a6-d850af96d32a","...":"..."}
+2023-11-02T16:23:14.682Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:14.687Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:16.687Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:16.692Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:18.693Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:18.698Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:20.700Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:20.703Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:21.778Z: cocalc:debug:project:websocket-api terminal cwd sent back: /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f
+2023-11-02T16:23:22.704Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:22.708Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:23.085Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{"{\"name\":\"python3-ubuntu\",\"opts\":{\"env\":{\"COCALC_JUPYTER_KERNELNAME\":\"python3-ubuntu\",\"PLOTLY_RENDERER\":\"colab\"}}}":1698945750734}}
+2023-11-02T16:23:24.708Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:24.711Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:26.260Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:23:26.261Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:23:26.487Z: cocalc:debug:project:websocket-api listings_table trim_old_paths
+2023-11-02T16:23:26.487Z: cocalc:debug:project:websocket-api listings_table trim_old_paths -47
+2023-11-02T16:23:26.718Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:26.727Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:26.727Z: cocalc:debug:project:ProjectStatusServer emitInfo[changed] {"alerts":[],"usage":{"disk_mb":508978.7578125},"version":1686327092}
+2023-11-02T16:23:26.727Z: cocalc:debug:project:websocket-api project_status status_server event 'status' undefined
+2023-11-02T16:23:26.727Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:28.728Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:28.733Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:28.852Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:23:28.854Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:28.855Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:23:28.855Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:23:28.919Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"04aacc87-9327-4a08-bea8-9297de9fe799","...":"..."}
+2023-11-02T16:23:30.734Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:30.744Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:32.746Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:32.749Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:34.750Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:34.800Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:36.802Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:36.805Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:38.806Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:38.810Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:39.883Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:23:39.885Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:39.885Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:23:39.885Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:23:39.942Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"55b51e19-fd1e-4a9f-b977-120d198c3e3a","...":"..."}
+2023-11-02T16:23:40.812Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:40.815Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:42.816Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:42.820Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:44.821Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:44.826Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:46.827Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.oom_control"}
+2023-11-02T16:23:46.831Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:48.831Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/cpu,cpuacct/cpuacct.usage"}
+2023-11-02T16:23:48.836Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:50.838Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:50.844Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:52.845Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:52.888Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:53.085Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{"{\"name\":\"python3-ubuntu\",\"opts\":{\"env\":{\"COCALC_JUPYTER_KERNELNAME\":\"python3-ubuntu\",\"PLOTLY_RENDERER\":\"colab\"}}}":1698945750734}}
+2023-11-02T16:23:54.883Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:23:54.885Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:54.885Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:23:54.885Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:23:54.889Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:54.902Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:54.934Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"7aa039a8-d108-4254-b5b5-bff27e0bcae4","...":"..."}
+2023-11-02T16:23:56.261Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:23:56.261Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:23:56.903Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:56.948Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:23:58.949Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:23:58.953Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:00.954Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:00.957Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:02.958Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:02.963Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:04.964Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:04.994Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:06.996Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:07.023Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:09.024Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:09.028Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:11.029Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:11.032Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:13.033Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:13.037Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:15.038Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:15.082Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:17.084Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:17.088Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:19.089Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:19.095Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:21.096Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:21.103Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:23.085Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{"{\"name\":\"python3-ubuntu\",\"opts\":{\"env\":{\"COCALC_JUPYTER_KERNELNAME\":\"python3-ubuntu\",\"PLOTLY_RENDERER\":\"colab\"}}}":1698945750734}}
+2023-11-02T16:24:23.105Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:23.109Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:25.110Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:25.114Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:26.261Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:24:26.261Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:24:26.488Z: cocalc:debug:project:websocket-api listings_table trim_old_paths
+2023-11-02T16:24:26.488Z: cocalc:debug:project:websocket-api listings_table trim_old_paths -47
+2023-11-02T16:24:27.119Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:27.123Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:27.124Z: cocalc:debug:project:ProjectStatusServer emitInfo[changed] {"alerts":[],"usage":{"disk_mb":509786.88671875},"version":1686327092}
+2023-11-02T16:24:27.124Z: cocalc:debug:project:websocket-api project_status status_server event 'status' undefined
+2023-11-02T16:24:27.124Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:29.125Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:29.130Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:31.132Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:31.136Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:33.138Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:33.142Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:35.151Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:35.174Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:37.175Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:37.178Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:39.179Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:39.205Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:41.212Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:41.247Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:43.249Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:43.273Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:45.274Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:45.278Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:47.280Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/cpu,cpuacct/cpuacct.usage"}
+2023-11-02T16:24:47.294Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:49.295Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:49.298Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:51.299Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:51.333Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:53.086Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{"{\"name\":\"python3-ubuntu\",\"opts\":{\"env\":{\"COCALC_JUPYTER_KERNELNAME\":\"python3-ubuntu\",\"PLOTLY_RENDERER\":\"colab\"}}}":1698945750734}}
+2023-11-02T16:24:53.333Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:53.338Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:55.338Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:55.343Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:56.261Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:24:56.261Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:24:57.344Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:57.349Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:24:59.350Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:24:59.356Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:01.358Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:01.378Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:03.381Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:03.385Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:05.386Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:05.411Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:07.413Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:07.418Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:09.420Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:09.423Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:11.424Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:11.428Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:13.429Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:13.433Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:15.435Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:15.438Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:17.439Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:17.443Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:19.444Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:19.448Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:21.449Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:21.453Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:23.085Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{"{\"name\":\"python3-ubuntu\",\"opts\":{\"env\":{\"COCALC_JUPYTER_KERNELNAME\":\"python3-ubuntu\",\"PLOTLY_RENDERER\":\"colab\"}}}":1698945750734}}
+2023-11-02T16:25:23.454Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:23.459Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:25.460Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:25.481Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:26.261Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:25:26.261Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:25:26.489Z: cocalc:debug:project:websocket-api listings_table trim_old_paths
+2023-11-02T16:25:26.489Z: cocalc:debug:project:websocket-api listings_table trim_old_paths -47
+2023-11-02T16:25:27.482Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:27.497Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:27.497Z: cocalc:debug:project:ProjectStatusServer emitInfo[changed] {"alerts":[],"usage":{"disk_mb":511276.3828125},"version":1686327092}
+2023-11-02T16:25:27.497Z: cocalc:debug:project:websocket-api project_status status_server event 'status' undefined
+2023-11-02T16:25:27.497Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:29.498Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:29.503Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:31.504Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:31.508Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:33.509Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:33.513Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:35.514Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:35.517Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:37.519Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:37.522Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:39.523Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/cpu,cpuacct/cpuacct.usage"}
+2023-11-02T16:25:39.526Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:41.527Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:41.531Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:43.531Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:43.535Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:45.536Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:45.539Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:47.541Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:47.544Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:49.546Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:49.555Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:51.557Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:51.578Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:53.086Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{"{\"name\":\"python3-ubuntu\",\"opts\":{\"env\":{\"COCALC_JUPYTER_KERNELNAME\":\"python3-ubuntu\",\"PLOTLY_RENDERER\":\"colab\"}}}":1698945750734}}
+2023-11-02T16:25:53.580Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:53.588Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:55.589Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:55.615Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:56.261Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:25:56.261Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:25:57.616Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:57.621Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:25:59.621Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:25:59.625Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:01.627Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:01.631Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:03.633Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:03.637Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:05.639Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:05.643Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:07.644Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:07.647Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:09.648Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:09.652Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:11.653Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/cpu,cpuacct/cpuacct.usage"}
+2023-11-02T16:26:11.657Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:13.658Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:13.662Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:15.664Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:15.668Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:17.670Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:17.671Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:19.672Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:19.674Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:21.675Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:21.678Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:23.086Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{"{\"name\":\"python3-ubuntu\",\"opts\":{\"env\":{\"COCALC_JUPYTER_KERNELNAME\":\"python3-ubuntu\",\"PLOTLY_RENDERER\":\"colab\"}}}":1698945750734}}
+2023-11-02T16:26:23.679Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:23.682Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:25.684Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:25.686Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:26.261Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:26:26.261Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:26:26.490Z: cocalc:debug:project:websocket-api listings_table trim_old_paths
+2023-11-02T16:26:26.490Z: cocalc:debug:project:websocket-api listings_table trim_old_paths -47
+2023-11-02T16:26:27.688Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:27.690Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:27.691Z: cocalc:debug:project:ProjectStatusServer emitInfo[changed] {"alerts":[],"usage":{"disk_mb":512610.63671875},"version":1686327092}
+2023-11-02T16:26:27.691Z: cocalc:debug:project:websocket-api project_status status_server event 'status' undefined
+2023-11-02T16:26:27.691Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:29.691Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:29.694Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:31.695Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:31.698Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:33.699Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/cpu,cpuacct/cpuacct.usage"}
+2023-11-02T16:26:33.702Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:35.702Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:35.706Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:37.707Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:37.710Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:39.712Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:39.715Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:40.388Z: cocalc:debug:project:websocket-api terminal cwd sent back: /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f
+2023-11-02T16:26:41.716Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:41.719Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:43.720Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:43.723Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:45.724Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:45.729Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:47.731Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.oom_control"}
+2023-11-02T16:26:47.733Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:49.734Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.oom_control"}
+2023-11-02T16:26:49.740Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:51.742Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:51.744Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:53.086Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{"{\"name\":\"python3-ubuntu\",\"opts\":{\"env\":{\"COCALC_JUPYTER_KERNELNAME\":\"python3-ubuntu\",\"PLOTLY_RENDERER\":\"colab\"}}}":1698945750734}}
+2023-11-02T16:26:53.745Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:53.748Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:55.749Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:55.752Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:56.262Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:26:56.262Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:26:57.753Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:57.756Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:26:59.758Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:26:59.761Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:01.762Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:01.765Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:03.766Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:03.768Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:05.770Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:05.772Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:07.773Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:07.776Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:09.777Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:09.781Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:11.781Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:11.784Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:13.784Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:13.787Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:15.789Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:15.791Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:17.792Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:17.795Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:19.796Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:19.799Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:21.800Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:21.804Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:23.086Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{"{\"name\":\"python3-ubuntu\",\"opts\":{\"env\":{\"COCALC_JUPYTER_KERNELNAME\":\"python3-ubuntu\",\"PLOTLY_RENDERER\":\"colab\"}}}":1698945750734}}
+2023-11-02T16:27:23.804Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:23.808Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:25.809Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/cpu,cpuacct/cpuacct.usage"}
+2023-11-02T16:27:25.812Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:26.262Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:27:26.262Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:27:26.491Z: cocalc:debug:project:websocket-api listings_table trim_old_paths
+2023-11-02T16:27:26.491Z: cocalc:debug:project:websocket-api listings_table trim_old_paths -47
+2023-11-02T16:27:27.813Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:27.817Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:27.817Z: cocalc:debug:project:ProjectStatusServer emitInfo[changed] {"alerts":[],"usage":{"disk_mb":514035.27734375},"version":1686327092}
+2023-11-02T16:27:27.817Z: cocalc:debug:project:websocket-api project_status status_server event 'status' undefined
+2023-11-02T16:27:27.818Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:29.819Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:29.821Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:31.822Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:31.825Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:33.826Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/cpu,cpuacct/cpuacct.usage"}
+2023-11-02T16:27:33.828Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:35.830Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:35.833Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:37.834Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:37.838Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:39.839Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:39.842Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:41.843Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:41.846Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:43.847Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:43.851Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:45.851Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:45.855Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:46.152Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  handle_mesg_from_browser  undefined
+2023-11-02T16:27:46.153Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:27:46.153Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:27:46.153Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:27:46.153Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:46.155Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:46.155Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:27:46.155Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:27:46.155Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:27:46.156Z: cocalc:debug:project:fs-watcher: initalizing: poll=false
+2023-11-02T16:27:46.162Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:46.162Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:27:46.162Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:27:46.196Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"da7a313a-47c8-4ebc-bac7-02acff403283","...":"..."}
+2023-11-02T16:27:46.207Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:27:46.208Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:46.208Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:27:46.208Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:27:46.282Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"dc86993d-3256-49f4-85d5-e00a7508eae0","...":"..."}
+2023-11-02T16:27:46.374Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"f9b457e0-c53f-49c1-87b2-eea53aa399b4","...":"..."}
+2023-11-02T16:27:47.711Z: cocalc:debug:project:directory-listing /projects/c7a1100d-10f9-4de1-b172-d38d7d09565f/
+2023-11-02T16:27:47.714Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:47.714Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:27:47.714Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:27:47.777Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"26b8ffbf-48ad-4d59-acb4-71096e5ba77f","...":"..."}
+2023-11-02T16:27:47.856Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:47.858Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:49.859Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:49.862Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:51.862Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:51.865Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:51.866Z: cocalc:debug:project:ProjectStatusServer emitInfo[alert] {"alerts":[{"type":"cpu-process","pids":["132995"]}],"usage":{"disk_mb":514638.46875},"version":1686327092}
+2023-11-02T16:27:51.866Z: cocalc:debug:project:websocket-api project_status status_server event 'status' undefined
+2023-11-02T16:27:51.866Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:53.086Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{"{\"name\":\"python3-ubuntu\",\"opts\":{\"env\":{\"COCALC_JUPYTER_KERNELNAME\":\"python3-ubuntu\",\"PLOTLY_RENDERER\":\"colab\"}}}":1698945750734}}
+2023-11-02T16:27:53.867Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:53.870Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:55.871Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:55.875Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:56.262Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:27:56.262Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:27:57.875Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:57.876Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:27:59.877Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:27:59.880Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:01.881Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:01.884Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:03.884Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:03.887Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:05.888Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:05.890Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:07.892Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:07.895Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:09.896Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:09.899Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:11.900Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:11.903Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:13.903Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:13.907Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:13.907Z: cocalc:debug:project:ProjectStatusServer emitInfo[alert] {"alerts":[],"usage":{"disk_mb":515183.6796875},"version":1686327092}
+2023-11-02T16:28:13.907Z: cocalc:debug:project:websocket-api project_status status_server event 'status' undefined
+2023-11-02T16:28:13.907Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:d66f9e5cd5074aa7af23de535b7b432c156e25d6', '{"project_status":[{"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","status":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:15.908Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:15.911Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:16.169Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  handle_mesg_from_browser  undefined
+2023-11-02T16:28:16.169Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:28:16.169Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:28:16.169Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:16.220Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  handle_mesg_from_browser  undefined
+2023-11-02T16:28:16.233Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"58399bdc-2f18-43df-9bf5-ef3bee79b321","...":"..."}
+2023-11-02T16:28:17.912Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:17.914Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:19.915Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/cpu,cpuacct/cpuacct.usage"}
+2023-11-02T16:28:19.918Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:21.920Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:21.926Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:23.087Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{"{\"name\":\"python3-ubuntu\",\"opts\":{\"env\":{\"COCALC_JUPYTER_KERNELNAME\":\"python3-ubuntu\",\"PLOTLY_RENDERER\":\"colab\"}}}":1698945750734}}
+2023-11-02T16:28:23.927Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:23.929Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:25.930Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:25.933Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:26.262Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:28:26.262Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:28:26.492Z: cocalc:debug:project:websocket-api listings_table trim_old_paths
+2023-11-02T16:28:26.492Z: cocalc:debug:project:websocket-api listings_table trim_old_paths -47
+2023-11-02T16:28:27.935Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.oom_control"}
+2023-11-02T16:28:27.937Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:29.938Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:29.940Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:31.941Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:31.943Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:33.944Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:33.947Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:35.949Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:35.953Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:37.955Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:37.958Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:39.958Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:39.963Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:41.964Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:41.967Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:43.968Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/cpu,cpuacct/cpuacct.usage"}
+2023-11-02T16:28:43.974Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:45.976Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:45.978Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:46.173Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  handle_mesg_from_browser  undefined
+2023-11-02T16:28:46.175Z: cocalc:debug:project:websocket-api listings_table handle_change_event ["[\"c7a1100d-10f9-4de1-b172-d38d7d09565f\",\"\"]"]
+2023-11-02T16:28:46.175Z: cocalc:debug:project:websocket-api listings_table handle_change 
+2023-11-02T16:28:46.175Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:31739f70f782515f817330273a75a3a73ca0a1fc', '{"listings":[{"deleted":null,"error":null,"interest":null,"listing":null,"missing":null,"path":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f","time":null}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:46.220Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"query","id":"fa986702-5191-4d9e-a727-45d39c8796f7","...":"..."}
+2023-11-02T16:28:47.978Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:47.981Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:49.982Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:49.985Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:51.986Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:51.989Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:53.088Z: cocalc:debug:jupyter:pool maintainPool {"EXPIRE":{"{\"name\":\"python3-ubuntu\",\"opts\":{\"env\":{\"COCALC_JUPYTER_KERNELNAME\":\"python3-ubuntu\",\"PLOTLY_RENDERER\":\"colab\"}}}":1698945750734}}
+2023-11-02T16:28:53.990Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/cpu,cpuacct/cpuacct.usage"}
+2023-11-02T16:28:53.993Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:55.994Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:55.996Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:28:56.262Z: cocalc:debug:project:handle-message-from-hub received a message {"event":"heartbeat","...":"..."}
+2023-11-02T16:28:56.262Z: cocalc:debug:project:handle-message-from-hub received heartbeat on socket '15c09254-c615-40ff-92a6-0af9217f6969'
+2023-11-02T16:28:57.998Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:28:58.001Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:29:00.002Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:29:00.007Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:29:02.008Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/cpu,cpuacct/cpuacct.usage"}
+2023-11-02T16:29:02.010Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers
+2023-11-02T16:29:04.011Z: cocalc:debug:project:project-info:server cgroup: error {"errno":-2,"code":"ENOENT","syscall":"open","path":"/sys/fs/cgroup/memory/memory.stat"}
+2023-11-02T16:29:04.016Z: cocalc:debug:project:websocket-api SyncTableChannel('sync:3927457dd35e819ed50b8d0b80f5084343f6e0df', '{"project_info":[{"info":null,"project_id":"c7a1100d-10f9-4de1-b172-d38d7d09565f"}]}'):  send_versioned_changes_to_browsers

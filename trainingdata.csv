@@ -1,0 +1,507 @@
+text,label
+Wire shall be wound with uniform tension and shall be furnished with a protective coating that will provide adequate lubricity and corrosion resistance but will not harden or produce a gummy condition in the baler tying mechanism,standard
+machine will be equipped with a main air valve with soft start when the machine is powered on and rapidly exhaust all line pressure when the machine is powered off.,requirement
+The Dish Element shall control the pointing position using time stamped Az/El pointing commands received from TM.,requirement
+"While the values for yield point and yield strength are not identical, they are sufficiently close for most applications of ferritic malleable irons to be used interchangeably. They may be determined by any of the approved techniques described in the paragraphs on Determination of Yield Strength and Yield Point of Test Methods E8/E8M. If determined as yield strength, that stress producing an extension under load of 0.01 in. [0.25 mm] over the 2 in. [50 mm] gage length (for example, 0.5 % extension) or an offset of 0.2 % shall be taken as the yield stress, which shall be converted to yield strength by dividing by the original cross-sectional area of the gage length found in accordance with 7.3.2. It shall be reported to the nearest 100 psi [MPa]. In referee work, yield strength shall be determined as the stress that produces an extension under load of 0.5 % of the gage length.",standard
+"When commanded, CSP_Mid.CBF shall transmit packets with payload size according to the Interface
+ID I.S1M.SDP_CSP.001 section of the MID SDP to CSP ICD.",requirement
+"the hmi needs to display the current shift counters, as well as the previous two shiftsí counters.",requirement
+"If the size of the stand is decreased above the pump discharge pipe, the top vent portion shall be of such inside cross-sectional area that, if the entire flow of the pump were discharging through it, the average velocity would not exceed 3.0 m/s",standard
+"DSH, when commanded to configure a new frequency band, shall move to the CONFIGURE mode and configure the new band within 30 seconds, whereafter it will revert to the mode from where the command was issued.",requirement
+"Wrap geotextile in a protective covering to prevent damage
+during shipping and handling. Label each roll to provide product identification for inventory
+and quality control. In the field, store the fabric rolls in a manner that protects them from the
+elements, including ultraviolet radiation",standard
+"Sampling procedures and the frequency of hardness testing shall be fully detailed on the purchase agreement. Otherwise, hardness tests shall be performed at the discretion of the producer.",standard
+"Scarify the roadbed, including shoulders, to the specified depth and width. Pulverize the scari-
+fied material so that a minimum of 95 percent, excluding gravel or stone, passes a 2-in. (50-mm)
+sieve.",standard
+ Each of the radial rollers and paddle lift and pipe stop shall be designed modularly and securely attached to each base frame so that the overall base design of each station is similar and will not require as much expertise to maintain. ,requirement
+ When a pipe is detected at the fixed pipe stop and the box end pipe dope station is empty the pipe shall be automatically loaded. ,requirement
+Castings shall have gates and risers removed in such a manner that no riser or gate stub projects or a depression is made beyond or below the casting design contour in an amount that would exceed the values given in Table S52.1.,standard
+The Supplier shall furnish at no charge to the Purchaser the following: Leveling shims required for field installation plus 10% overage.,requirement
+hot-swappable drives using mirror cases.,requirement
+"Because of the complexity of these factors in influ_x0002_encing the properties of the final product, no precise quantita_x0002_tive relationship can be stated between the properties of the iron in various locations of the same casting or between the properties of a casting and those of a test specimen cast from the same iron. When such a relationship is important and must be known for a specific application, it may be determined by appropriate experimentation",standard
+"Items identified as OLM Spare Items, shall be interchangeable with items of the same Part Number and Version with no calibration, tuning or special alignment.",requirement
+ Automatic adjustment of the adjustable pipe stop shall be programmatically selected with outer diameter recipe on each of the HMIs. ,requirement
+"While the CSP_Mid.CBF Administrative Mode is set to ONLINE or MAINTENANCE, CSP_Mid.CBF shall detect and report Single Event Upsets (SEUs) independently of manifestation through programmable logic device malfunction.",requirement
+"The microstructure of the malleable iron shall consist of temper carbon nodules distributed through a ferritic matrix and shall be free of excessive pearlite, massive carbides, and primary graphite.",standard
+The TM shall configure the DSH parameters as required for the observation. The TM will do this by passing parameters to DSH via a Capability request.,requirement
+"When commanded for each subarray, CSP_Mid shall capture into a Transient buffer selectable 2-bit, 4-bit, or 8-bit quantized dual- polarization voltage data selectable from one or both of the Search Windows, post-delay and phase corrected.",requirement
+Furnace temperatures for heat treating shall be regulated by the use of pyrometers,standard
+"Sprinkle the surface of the completed OGPCCB with a fine spray of water
+every 2 for a period of 8 h. Begin curing the morning after the base has been placed.",standard
+"Except for Grades N-1 and N-2, one tension test shall be performed on each heat and the mechanical properties shall conform to the requirements specified in Table 2",standard
+"The initial soil backfill, with the moisture content specified in paragraph 4.4.1.3, shall be noncohesive of a texture coarser than clay. (Soil will not ribbon in fingers when wet, or shall not have more than 30% by weight of material finer than 2 µ.) It shall be free from rocks or other pieces larger than 75 mm (3 in.), broken concrete, timber, roots, and other debris. The backfill shall be placed around the pipe in lifts uniformly on both sides to prevent displacement and consolidated to densities as given in the project specifications. The backfill shall cover the pipe to a depth of at least 150 mm (6 in.) for the full width of the trench and not more than seven sections of pipe behind the laying. If laying ceases for 2 h or more, the initial backfill shall be brought up to and cover the last completed joint. Backfilling while mortar bands are still plastic is permissible. If complete backfilling is not done at this time, the completion shall be delayed at least 20 h, but must be completed to the minimum specified cover or 0.6 m (2 ft), whichever is less, before water is put into the line.",standard
+The maximum outside dimensions of the empty carton shall be 349.3 x 355.6 x 165.1 mm (13.75 x 14.00 x 6.50 in.). A knockout hole with a maximum diameter of 190.5 mm (7.50 in.) shall be provided on each side of the carton. It is intended that this carton fit balers designed subsequent to the December 1969 revision of this Standard. The 355.6 mm (14.00 in.) dimension may cause some interference with balers currently in the field,standard
+"If sufficient companion test bars are unavailable, the manufacturer shall have the option of testing a specimen cut from a representative casting. Therefore, as stated in X1.3, the mechanical properties of such tension test specimen removed from a production casting will not necessarily correspond to those of a standard separately cast test specimen, the values in Table 1 do not apply. Instead, the mechanical properties of the test specimen from the casting must equal or exceed the average of those from similar test specimens removed from the same location from two castings of the same design where separately cast test bars meet the requirements of Table 1.",standard
+Where the Origin Cloud supports OCF Device to Cloud Services this may be triggered by reception of a RETRIEVE to a URI exposed by a Link in the OCF Cloud Resource Directory from an OCF Client.,standard
+"The results of all tests, including retests, shall be posted in permanent record, which shall state any abnormali_x0002_ties observed during the test and in the fractured ends. Such records shall be kept for at least one year after shipment of the production castings and shall be available for examination by the purchaser or by his authorized representative",standard
+ The vrollers of the box end threading inspection station shall then return to the up position and shall be prepared to accept the next pipe. ,requirement
+The SKA1_Mid dishes shall provide a mechanism to adjust signal levels to trade off quantization efficiency for RFI headroom,requirement
+"When commanded, CSP_Mid.CBF shall output up to a total of 16 dual-polarization Pulsar Timing voltage beams constrained to an aggregate beam-bandwidth product of 20 GHz per polarization, spread across one or more subarrays.",requirement
+Gate stand dimensions shall be sufficient to accommodate the gate or gates required.,standard
+"The TM shall send pointing commands, as a polynomial of higher order Pointing Coordinate Sets, to the DSH Dish.",requirement
+"If agreed upon in writing by the foundry and purchaser, the malleable iron castings may be required to meet special conditions, hardness or other property dimensions, surface quality, or a combination of conditions",standard
+"All castings of Grades N-2, 60-30 [415-205], 65-35 [450-240], 70-36 [485-250], and 70-40 [485-275] shall be heat treated by annealing, normalizing, normalizing and tempering, or quenching and tempering. Unless otherwise specified in the inquiry, contract, or order, the castings may be heat treated by any one or combination of these heat treatments at the option of the manufacturer.",standard
+"A vendor may extend the list of OAuth2.0 access token scopes beyond those listed in Table 2. They are extended by adding additional vendor-specific information before the * in the OAuth2.0 access token scope name (e.g. ""r:xyz:*""). How these extensions work is outside the scope of the OCF but they may be present in the OAuth2.0 access token request. Note that if the user gives consent to the Origin Cloud to ""w:*"", consent applies also to any derived OAuth2.0 access token scopes (e.g. ""w:xyz:*"").",standard
+The frerCpsSeqRcvyTaglessPackets counter is incremented once for each packet received by the VectorRecoveryAlgorithm (7.4.3.4) or the MatchRecoveryAlgorithm (7.4.3.5) that has no sequence_number subparameter (item b in 6.1).,standard
+"The counters in this subclause are instantiated for each port on which the Stream identification function (6.2) is configured. They are indexed by port number. Encoded as unsigned integers, they shall be 64 bits in length to ensure against excessively short wrap times when used on links on which transmission rate exceeds 650 000 000 bits per second.",standard
+shielded communication wiring will not run parallel with non-inductive low voltage ac load wiring (< 65 volts) closer than 4 inches.,requirement
+"CSP_Mid.CBF LRU equipment that radiate electromagnetic emissions in the SKA1 frequency range and that aren't within a shielded enclosure of a higher level LRU, shall at a minimum be compliant with the IEC 61000-6-3 standard
+or equivalent for conducted and radiated emissions under standard test conditions and setups in the SKA Mid telescope frequency range specified in the SKA EMI/EMC Standards and Procedures [SKA-TEL-SKO-0000202].",requirement
+"All structural frames shall be fabricated in accordance with AISC specifications and other applicable codes and standards as listed in Section 3.0, titled ìIndustry Codes and Standardsî The design of structural components shall be under the direct supervision of a registered professional engineer experienced in the design of this type of equipment.",requirement
+Heat treatment shall be performed after castings have been allowed to cool from the pouring temperature to below the transformation range,standard
+The 'LanguagePreferredList' element contains one or more 'LanguagePreferredComponentDef' elements.,standard
+"The values stated in either SI units or inch-pound units are to be regarded separately as standard. The values stated in each system may not be exact equivalents; therefore, each system shall be used independently of the other. Combining values from the two systems may result in nonconformance with the standard",standard
+"CSP_Mid.CBF shall digitally re-sample data, that may be sampled at a different rate at each SKA1_Mid receptor, to a common rate before performing any cross-correlation or beamforming operations.",requirement
+"Stands constructed of concrete pipe having diameters greater than 600 mm (24 in.) shall use Class II Reinforced Concrete Pipe as specified in ASTM Standard C76, Specifications for Reinforced Concrete Culvert, Storm Drain, and Sewer Pipe, or be designed for the anticipated heads",standard
+all sensors will have 'quick disconnect' fittings between the sensor and the termination point.,requirement
+"If, after testing, a specimen shows evidence of a defect, another tension test may be made on a companion specimen. Also, a retest shall be permitted whenever fracture occurs outside the central 50 % of the gage length.",standard
+"An arbitrary character code or character code sequence that is specified by the '0x' prefix followed by multiples of two hexadecimal digits whereby each two hexadecimal digits represent a single byte. If a Unicode code point or Unicode code point sequence is used, it should be specified according to ICU's UnicodeSet pattern syntax",standard
+"Concrete box stands with vertical sides suitably reinforced to withstand handling and installation, and operating stresses.",standard
+"The Dish shall identify all internal faults down to LRU level as defined through the LSA process.
+{not compliant to L1}",requirement
+"The maximum latency from arrival of SKA1_Mid receptor data at the I.S1M.SADT_CSP.009 interface boundary, until present at the CSP_Mid.CBF Pulsar Search beamformer output, shall be 2 seconds.",requirement
+"Finish the surface so that deviations do not exceed 1/2 in. (15 mm), longitu-
+dinal or transverse, when tested according to Subsection 401.3(L)(1).",standard
+"DSH, when in the STOW mode, and when in FULL_POWER state, shall be able to perform data capture and transmission.",requirement
+ The Welded Tube supplied CNC equipment shall be able to accommodate an estimated forty seven to twenty five pieces per hour of four and a half inch diameter pipes to nine and five eighths diameter pipes at forty eight feet in length. ,requirement
+"Test specimens for the bend test specified in Section 11 and for the flattening tests shall consist of sections cut from a pipe. Specimens for flattening tests shall be smooth on the ends and free from burrs, except when made on crop ends",standard
+"When the size of the casting permits, each casting shall bear the identifying mark of the manufacturer and the part or pattern number at a location shown on the covering drawing and, if not shown on the drawing, at such a location at the discretion of the producer that the identification will not interfere with subsequent processing and service of the casting",standard
+"With the tube operating as outlined in note 4, a small portion of the tube envelope shall be cooled by the application of solid CO2. The ratio of the minimum reading of the output meter (Po2) to that obtained before the application of solid CO2 (Po2) shall be less than the given value, and the final reading shall be less than the initial one.",standard
+"Friction loss for mortar-jointed, rubber-gasket, or cast-in-place pipelines shall be computed using Scobey’s concrete pipe equation with a coefficient of retardance Ks = 0.310 or Manning’s equation with roughness coefficient n = 0.013. For extra smooth rubber-gasket pipe, the Scobey coefficient of retardance may range up to Ks = 0.370 and the Manning’s roughness coefficient down to n = 0.011. Minor losses can be computed in accordance with current practices.",standard
+"When agreed upon by the purchaser and producer, the maximum decarburization at any as-cast surface after heat treatment may be stipulated in writing, as measured by visual depletion of combined carbon after polishing, etching in nital, and viewing at 100×.",standard
+"CSP_Mid.CBF repairable items shall have maintenance provisions such as test points, accessibility, and plug-in components.",requirement
+ Each threading line shall have a box end drift and threading protector station. ,requirement
+"When commanded, CSP_Mid.CBF shall accept and interpret data from SKA1 Mid DISHes according to the protocol defined in the DISH to CSP ICD.",requirement
+"All castings, on visual examination, shall be sound and free of obvious shrinkage and porosity",standard
+"In reference work, the metallographic practice recom_x0002_mended in Test Method A247 shall be follow",standard
+This specification2 covers ferritic malleable castings for general engineering usage at temperatures from normal ambi_x0002_ent to approximately 400 °C [750 °F].,standard
+"Contact portion of disc measured radially which shall be free from splits or tears, shall be smooth and shall be perceptibly flat.",standard
+"Coils of wire shall be shipped in suitable containers providing adequate protection for shipping, storage, and distribution.",standard
+"A Unicode code point or Unicode code point sequence that is specified with a notation that uses Unicode scalar values, substituting the ""U+"" prefix with a ""u"" prefix, such as ""u4E00"" for U+4E00",standard
+each assembly operation will inspect for presence of parts at all times so as not to loose control of their location and positioning one shot programming for detectionís shall not be used; only continuous input shall be used.,requirement
+"The 960 m (3150 ft) coil shall be shipped two in a carton which shall be marked as follows: Package No. 3150 ASAE Standard Baling Wire (2 coils), 141/2 gage, 960 m (3150 ft) minimum per coil",standard
+ Welded Tube shall be responsible for all power air and other utility drops to the machines while the power and other utilities will be brought to AEC designated connection points on the machine. ,requirement
+"If the first test results indicate that a reheat treatment is needed to meet the test requirements, the entire lot of castings and the representative test specimens shall be reheat treated together. Testing shall then be repeated in accordance with 7.4.1 – 7.4.3.",standard
+Sufficient material shall be removed from the cast surface to ensure that the measured surface is representative,standard
+No precise quantitative relationship can be stated be_x0002_tween the properties of the iron in various locations of the same casting and those of a test specimen cast from the same iron,standard
+"If the first test results indicate that a reheat treatment is needed to meet the test requirements, the entire lot of castings and the representative test specimens shall be reheat treated together. Testing shall then be repeated in accordance with 7.4.1 – 7.4.3.",standard
+"A transverse tension test shall be made on a specimen from one end or both ends of each pipe NPS 8 [DN 200] and over. If this supplementary requirement is specified, the num_x0002_ber of tests per pipe shall also be specified. If a specimen from any length fails to meet the required tensile properties (tensile, yield, and elongation), that length shall be rejected subject to retreatment in accordance with Specification A530/A530M and satisfactory retest",standard
+ Each of the vrollers on the threading station shall drive the pipe into the self centering vrollers past a proximity sensor that indicates when to decrease transfer speed. ,requirement
+Factors influencing the properties of castings and their relationship to those of test specimens and separate test castings are discussed in Appendix X1.,standard
+"Complete wet mixing, lay down, and finishing operations within 2 after adding cement.
+Suspend work when windy conditions cause a cement loss.",standard
+"all teach pendants must have a ìdead manî switch requiring the operator to use two-hands (one hand for the dead-man, one hand for the motion) when making any manual motion.",requirement
+ Each box end drift and threading protector station paddle lift shall lower the pipe onto the box end drift and threading protector station vrollers. ,requirement
+CSP_Mid.CBF shall provide equipment handles and stand-offs to facilitate the installation and handling and to mitigate damage of the equipment during out-of-system repair.,requirement
+"specialty tools for alignment, work, changeover, or set up will be provided along with replacement information from the source vendor or detailed drawings of the replacement tools.",requirement
+ Each box end pipe dope station frame shall be constructed of welded structural members. ,requirement
+"The Supplier's equipment and system shall be designed for maximum personnel safety including, but not limited to, the following: Drive and other equipment guards (metallic only).",requirement
+The chemical composition of the iron shall be such as to produce the structural and mechanical properties required by this specification,standard
+alternate solutions may be acceptable after review and approval by pierburg inc. .,requirement
+Downstream from all shutoff valves for vacuum relief.,standard
+"When under CSP_Mid.LMC control, for each subarray, CSP_Mid.CBF shall change parameters which are settable by CSP_Mid.LMC, only when commanded to do so by CSP_Mid.LMC.",requirement
+The Creel height shall not exceed 17í-6î above the operating floor.,requirement
+ The project shall incorporate a high speed threading table. ,requirement
+Each CSP_Mid.CBF cable end shall carry an identifier that uniquely defines the connector it needs to connect to.,requirement
+"When castings are specified for government procurement, the location of the permanent markings specified in 15.1, as well as any special marking for mechanical or physical properties (either permanent or temporary), shall be as indicated on the government drawings or sketches.",standard
+The H-F electrode shall be concentric with the disc electrode within .018(.46 mm).,standard
+CSP_Mid.CBF shall be compliant with the RoHS Directive 2011/65/EU (RoHS 2) or equivalent.,requirement
+"Correct surface irregularities to prevent the formation of depressions or water pockets. Compact
+topsoil lightly to ensure contact with the underlying soil and to create a uniform seedbed.",standard
+"When agreed upon by the purchaser and producer, the maximum decarburization at any as-cast surface after heat treatment may be stipulated in writing, as measured by visual depletion of combined carbon after polishing, etching in nital, and viewing at 100×",standard
+"For castings of such size or shape that do not permit Brinell testing with the standard 3000 kgf load, the 500 kgf may be employed, the hardness number being reported as HB 10/500/15. In very unusual cases where it is impossible to use the Brinell method, the Rockwell test may be substituted, using Test Methods E18 with an appropriate Rockwell scale. Con_x0002_versions of hardness values from one method to another according to Hardness Conversion Tables E140, which does not specifically cover cast irons, are approximate only and, therefore, are generally inadvisable.",standard
+"Tension test results, obtained in accordance with the above subsections, must conform to the values of Table 1 for acceptance under this specification except as provided in 7.4.3",standard
+"Unless otherwise specifically agreed to, the acceptability of the pipeline shall be determined by inspections to determine compliance with the provisions of this Standard with respect to the design of the pipeline and appurtenances, the materials used, workmanship, and the minimum installation requirements. Compliance shall not be binding for conditions related to earthquake or land settlement damage (except from improper trench bottom preparation or inadequate foundations for structures), external damage not caused by the parties involved, or leakage of mortar-jointed or cast-in-place pipe caused by water of temperature less than 50 °F (10 °C).",standard
+ The operator training shall include a review of safety means and devices startup shutdown setup transition between modes alarms maintenance messages and warnings general description of the installation including description of assemblies and subassemblies and identification of equipment. ,requirement
+ Each threading line shall have a box end high speed threading station. ,requirement
+"Over the elevation range from zenith down to 30° above the horizon, under precision and standard operating conditions, each SKA1_Mid dish shall achieve Dish sensitivity
+exceeding a line interpolated linearly between 2.1 m2/K at 350 MHz, 4.2 m2/K at 650 MHz and 4.2 m2/K at 1050 MHz in both polarization channels over SPF band 1.",requirement
+The tube shall be mounted in the specified external cavity and placed between a matched generator and detector. The signal generator frequency shall be varied to obtain the resonant frequency of the tube and cavity as evidenced by a pronounced peak at the output indicator. The value of this resonant frequency shall be within the limits specified,standard
+"The test methods described in this section are not necessarily capable of inspecting the end portion of pipes, a condition referred to as “end effect.” The length of such end effect shall be determined by the manufacturer and, when specified in the purchase order, reported to the purchaser.",standard
+"CSP_Mid.CBF racks shall survive a main power interruption at any time, without requiring a repair activity to restore it once power is restored.",requirement
+"
+CSP_Mid.CBF shall use 42U 19” CSP racks with dimensions 600mm wide x 1070mm deep in accordance with the latest approved version of the MID CSP to INFRA ICD.",requirement
+Fabricated stainless steel shall be ìLî grade stainless steel unless otherwise noted.,requirement
+"2 If the purchaser should find that a casting or lot of castings fails to comply with this specification subsequent to receipt at his facility, he shall so notify the manufacturer promptly and in no case later than six weeks after receipt of the shipment, stating clearly his basis for rejection. In case of dissatisfaction with the purchaser’s claim, the manufacturer may apply for a hearing before final rejection of the shipment",standard
+"Steel cast in ingots or strand cast is permissible. When steels of different grades are sequentially strand cast, identifi_x0002_cation of the resultant transition material is required. The producer shall remove the transition material by any estab_x0002_lished procedure that positively separates the grades.",standard
+ Each threading line shall have a box end end blast station. ,requirement
+ Each box end end blast station shall have a fixed pipe stop. ,requirement
+spring loaded terminal strip connections can only be used in io blocks areas for wire terminations; all other terminations are to be screw type terminals.,requirement
+"The 'mapChar' element maps from arbitrary character codes or arbitrary character code sequences, including Unicode, to Unicode.",standard
+"The steel shall conform to the requirements as to chemical composition prescribed in Table 1. Product analysis tolerances shall conform to the Product Analysis Tolerances shown in Specification A781/A781M or Specification A957/ A957M. When residual element chemical content is of interest to the purchaser, S54 may be considered",standard
+"When imperfections or defects are removed by grinding, a smooth curved surface shall be maintained, and the wall thickness shall not be decreased below that permitted by this specification. The outside diameter at the point of grinding is permitted to be reduced by the amount so removed",standard
+Stands shall be placed at each inlet to a concrete irrigation pipe system and at such other points as required. All stands shall be installed on a base adequate to support the stand and to prevent undue movement or stress on the pipeline. All stands shall serve as vents in addition to their other functions as follows,standard
+"Concrete pipelines shall not be installed on sites where the sulfate salt concentration exceeds 1.0% as water soluble sulfate in soil samples, or 4000 parts per million (ppm) sulfate in groundwater samples. Concrete pipe shall be made with cement of the type shown for the following conditions",standard
+"The Engineer will measure cement-treated base course by the yd2 (m2) or by the individual
+components for material and processing, as established in the contract.",standard
+automatic run time ñ collective time by shift that the machine runs in automatic jog mode without waiting for the upstream or the downstream.,requirement
+"When instantiating an instance of the Mask-and-match Stream identification function (6.8) for a particular input Stream, the managed objects in the following subclauses serve as the tsnStreamIdParameters managed object (9.1.1.2)",standard
+"When commanded, CSP_Mid.CBF shall, for each subarray independently, tune the center frequency of Frequency Slices for Bands 1, 2, 3, and 4 over a range of at least +/-1/2 of a Frequency Slice bandwidth within the received Band, with tuning resolution of at least 0.01 MHz.",requirement
+Outside end of wire shall bear a tag containing only the manufacturer’s identification; inside end of coil shall be bent over the tie at the inside diameter,standard
+ Every project shall operate within the Quality Management System of the AEC which is registered to ISO 9001 2008 standards. ,requirement
+"
+When commanded, CSP_Mid.CBF shall process up to 700 MHz per polarization of contiguous RF (sky) data within the Band 1 band of interest.",requirement
+"Data in the packet shall be organised serially in time, with the first sample being the oldest.",requirement
+ Welded Tube shall be responsible for providing 480VAC drops to each machine control cabinet for each threading line and the main disconnect load shall be provided upon detailed design. ,requirement
+CSP_Mid.CBF equipment hardware failures and software errors shall not create hazardous conditions in interfacing elements and sub-elements.,requirement
+Test coupons may be cut from the heat-treated (if required) castings at the producer’s option.,standard
+CSP_Mid.CBF rack equipment shall have a power factor in accordance with the latest approved version of the MID CSP to INFRA ICD.,requirement
+the operator panel for each module or system must report all machine stops and a reason why it occurred.,requirement
+"This standard does not purport to address all of the safety concerns, if any, associated with its use. It is the responsibility of the user of this standard to establish appro_x0002_priate safety, health, and environmental practices and deter_x0002_mine the applicability of regulatory limitations prior to use",standard
+"When commanded, CSP_Mid.CBF shall be a data source for one or more VLBI data acquisition systems as defined in the MID CSP to VLBI ICD.",requirement
+"CSP_Mid.CBF shall accommodate, and automatically and continuously compensate for unknown and slowly changing but constrained sampled data transmission delays from SKA1_Mid receptors between 1 microsecond and 1 millisecond, measured from the physical SADT-DSH DDBH (I.S1M.SADT_DSH.001) interface boundary to the physical SADT-CSP DDBH (I.S1M.SADT_CSP.009) interface boundary or directly from DSH from the physical I.S1M.DSH_CSP.001 egress boundary in the receptor to the ingress boundary of the same in CSP_Mid.CBF.",requirement
+Salvage and stockpile topsoil before beginning earthwork operations. Place sediment controls before beginning salvage operations. Stockpile topsoil so as not to interfere with natural drainage or cause off-site sediment damage. Limit stockpile side slopes to a steepness of 2:1 (1:2).,standard
+"Cure and protect lime-fly ash-treated subgrade and base courses as
+specified in Subsection 308.3(J).",standard
+ Each lift station fixed pipe stop shall be constructed of a thick heavy duty urethane cover with steel under lament for rigidness. ,requirement
+"The sizes listed in Table 2 are typical as shipped from the manufacturer’s plant. These alloys exhibit varying degrees of friability; therefore, some attrition may be expected in transit, storage, and handling. A quantitative test is not avail_x0002_able for rating relative friability of ferroalloys. A code system has been developed, therefore, for this purpose, and a number rating for each product type is shown in the last column of Table 2. Definitions applicable to these code numbers are given in Specification A1025/A1025M.",standard
+"As specified in Subsection 703.4(C)(1), the
+engineer may use reclaimed aggregates from the project or from stockpiles off the project.",standard
+"Mechanical marks and abrasions—such as cable marks, dinges, guide marks, roll marks, ball scratches, scores, and die marks—and pits, any of which imperfections are deeper than 1⁄16 in. [1.6 mm]",standard
+"If the results of a valid test fail to conform to the requirements of this specification, two retests shall be made. If either retest fails to meet the specification, the castings repre_x0002_sented by these test specimens shall be rejected. A valid test is one wherein the test specimen has been properly prepared and appears to be sound and on which the approved test procedure has been followed.",standard
+"At the request of the purchaser, one tensile test shall be performed by the manufacturer on a test specimen from each heat of steel furnished which has been either stress relieved at 1250°F or normalized at 1650°F, as specified by the purchaser. Other stress relief or annealing temperatures, as appropriate to the analysis, may be specified by agreement between the purchaser and the manufacturer. The results of this test shall meet the requirements of Table 1",standard
+ Each pipe shall stop plus or minus three hundredths of an inch inside the CNC threading machine. ,requirement
+"The results of all tests, including retests, shall be posted in permanent record, which shall state any abnormali_x0002_ties observed during the test and in the fractured ends. Such records shall be kept for at least one year after shipment of the production castings and shall be available for examination by the purchaser or by his authorized representative",standard
+"All openings into nonrubber-gasket pipelines shall be covered or closed to prevent air circulation, except while work is actually in progress, and shall be kept closed until the pipeline is completed and is to be filled with water",standard
+The DSH shall report serial numbers for hardware components that provide digitally readable serial numbers,requirement
+"When commanded, CSP_Mid.CBF shall process up to 1400 MHz per polarization of contiguous RF (sky) data within the Band 3 band of interest.",requirement
+The pipe shall be clean and wet when placing the thrust block to provide a good bond between concrete and pipe. Where adequate soil tests are not available the allowable passive soil pressure shall be considered to be 24 kPa (500 lb/ft2).,standard
+"The tensile strength shall be the maximum load carried by the specimen during the test divided by the original cross-sectional area of the gage length, as found in accordance with 7.3.2. It shall be reported to the nearest 100 psi [MPa].",standard
+ Each pipe shall undergo end blast while rotating. ,requirement
+Sufficient material shall be removed from the cast surface to ensure that the measured surface is representative,standard
+"Stoppage and horizontal joints for cast-in-place pipelines shall conform to the requirements of ACI Standard 346, Specifications for Cast-in-Place Nonreinforced Concrete Pipe. Connection joints shall be prepared by cleaning and freeing of loose or defective concrete, coatings, and foreign material. The contact faces of the pipe and fittings shall be wetted and the fitting mortared into place using bonding mortar as specified in the above-referenced standard.",standard
+"When commanded and with the CSP_Mid.CBF Administrative Modes set to OFFLINE, CSP_Mid.CBF shall detect and report the following faults:
+1. Stuck or incorrect memory cells, whether a direct fault or manifested as such,
+2. Calculation faults that may lead to incorrect data products, whether a direct fault or manifested as such.",requirement
+CSP_Mid.CBF equipment that present a potential hazard shall display a label in accordance with ISO 7010 or equivalent.,requirement
+All Engineering documents and data listed in the Vendor Data Requirements Form including but not limited to the following: Priced Critical Spares List.,requirement
+The DSH shall be designed to be locally fail-safe and not be dependent on any external inputs from TM for safety.,requirement
+The systems designed and/or installed under this Standard shall utilize pipe conforming to one or more of the following types of nonreinforced concrete irrigation pipe.,standard
+All Engineering documents and data listed in the Vendor Data Requirements Form including but not limited to the following: Recommended Spare Parts Lists.,requirement
+"Compact to a minimum of 95 percent of the maximum density as determined by AASHTO T 180
+or AASHTO T 99. The Engineer will determine in-place density according to AASHTO T 191 or
+T 310, correcting for oversized particles as necessary.",standard
+ Each pipe shall be transferred by individually powered vrollers towards powered self centering vrollers which are also on the correct centerline height. ,requirement
+"Rubber-gasket pipe shall not be placed with the joints rammed together so tight that longitudinal compression develops from wetting expansion of the pipe. If in doubt about any particular joint design, the end of the spigot shall be pulled back from the shoulder of the bell a distance not exceeding approximately 1.5 mm (0.06 in.)",standard
+"Install construction joints where concrete placement operations are interrupted for
+more than 30 minutes. Place a header to create a vertical face that is perpendicular to the
+centerline, and use tie bars as needed.",standard
+ Each threading line should have a pin end end blasting station. ,requirement
+"Mix the lime and water into the soil to form a uniform, homogeneous mixture with
+100 percent passing a 3-in. (75-mm) sieve. Reshape the mixed layer to the specified line,
+grade, and cross section. For Class 1 and 2 stabilization, seal the surface with a roller. For
+Class 3 stabilization, compact and finish.",standard
+"Steel investment castings furnished to this specification shall conform to the requirements of Specification A957/ A957M, including any supplementary requirements that are indicated in the purchase order. Failure to comply with the common requirements of Specification A957/A957M consti_x0002_tutes nonconformance with this specification. In case of con_x0002_flict between the requirements of this specification and Speci_x0002_fication A957/A957M, Specification A957/A957M shall prevail.",standard
+"If the algorithm exports two or more non-mutually exclusive (intersect) categories or states, it can be divided into multiple binary categories to form a confusion matrix (shown in Table A.2, “negative” and “positive” are defined according to product functional characteristics) for evaluation.",standard
+"Unless otherwise specified, pipe NPS 2 [DN 50] and over shall be furnished hot finished. When agreed upon between the manufacturer and the purchaser, it is permissible to furnish cold-drawn pipe",standard
+"Mechanical air vents, as described below, may be used in lieu of open vents. Actual orifice sizes are generally smaller than the nominal (thread) size of the vents",standard
+"Any component of the Dish shall not emit electromagnetic radiation between 300 MHz and 20 GHz, which produces a power spectral density, that is received by an isotropic receiver at the Feed, that is greater than:
+- The Spectral Line power threshold levels defined by:
+  as measured with a RBW of 0.001% of centre 
+- The Continuum power threshold levels defined by:
+as measured with a RBW of 1% of centre frequency.",requirement
+"When instantiating an instance of the Active Destination MAC and VLAN Stream identification function (6.6) for a particular output Stream, the managed objects in the following subclauses",standard
+A Re-Direct Roller System shall be provided at the front of the Creel to re-direct the yarn from the width of the Creel to the width of the production line as specified in paragraph 9.1.7.,requirement
+The designation “HF” shall be stamped or marked on each pipe to signify that the pipe complies with this supple_x0002_mentary requirement,standard
+"Required. The 'LanguagePreferredComponentDef' element contains a single 'Language' element and one or more 'ComponentDef' elements. If the same 'ComponentDef' element is meant to serve more than one language, multiple instances of the 'LanguagePreferredComponentDef' element may be specified.",standard
+"Coils shall be banded securely with a minimum of three ties on the 1981 m (6500 ft) coil and the 960 m (3150 ft) coil, evenly spaced",standard
+"Except for steel investment castings, material furnished to this specification shall conform to the requirements of Specification A781/A781M, including any supplementary re_x0002_quirements that are indicated in the purchase order. Failure to comply with the general requirements of Specification A781/ A781M constitutes nonconformance with the specification. In case of a conflict between the requirements of this specification and Specification A781/A781M, this specification shall pre_x0002_vail",standard
+"When specified by the purchaser’s order or contract, a manufacturer’s certification or compliance statement that the casting or lot of castings was made, sampled, tested, and inspected in accordance with this specification, including a report of test results signed by an authorized agent of the manufacturer, shall be furnished at the time of shipment, and such certification or compliance statement shall be the basis for acceptance of the casting or lot of castings",standard
+"If the analysis of one of the tests specified in 9.1 does not conform to the requirements specified in Section 7, analyses shall be made on additional pipes of double the original number from the same lot, each of which shall conform to requirements specified",standard
+"The mass of any length of pipe shall not vary more than 10 % over and 3.5 % under that specified. Unless otherwise agreed upon between the manufacturer and the purchaser, pipe in NPS 4 [DN 100] and smaller may be weighed in convenient lots; pipe larger than NPS 4 [DN 100] shall be weighed separately",standard
+"CSP_Mid.CBF equipment connected to the CPF electrical network shall be compliant with the IEC 61000-4-3 standard or equivalent for radiated, radio-frequency, electromagnetic field immunity under standard test conditions and setups in accordance with the latest approved version of the MID CSP to INFRA ICD.",requirement
+"DSH shall report the following DSH Capability States for all five frequency bands: 
+a) UNAVAILABLE
+b) STANDBY
+c) CONFIGURING
+d) OPERATE_DEGRADED 
+e) OPERATE",requirement
+"Under Degraded Operating Conditions, Antenna efficiency at 15 GHz shall not degrade to less than 92% of the efficiency stated in R.D.P.1.",requirement
+"CSP_Mid.CBF equipment, while in its storage packaging, shall withstand, and shall operate to specification as defined
+herein after exposure to, the storage environmental conditions as defined in “Class 1.1: Weather protected, partly temperature- controlled storage locations” of the ETSI EN 300 019-1-1 standard and defined in BS EN IEC 60721-3-1.
+ Climatic Conditions: 1K3
+ Biological Conditions: 1B2
+ Chemical conditions: 1C2
+ Dust and Sand conditions: 1S2
+ Shock & Vibration Conditions: 1M2",requirement
+"The flattening test of Specification A530/A530M shall be made on a specimen from one end or both ends of each pipe. Crop ends may be used. If this supplementary requirement is specified, the number of tests per pipe shall also be specified. If a specimen from any length fails because of lack of ductility prior to satisfactory completion of the first step of the flattening test requirement, that pipe shall be rejected subject to retreat_x0002_ment in accordance with Specification A530/A530M and satisfactory retest. If a specimen from any length of pipe fails because of a lack of soundness, that length shall be rejected, unless subsequent retesting indicates that the remaining length is sound",standard
+"The manufacturer shall furnish an analysis of each shipment showing the silicon content and, when required, such of the other elements specified in Table 1",standard
+ After the pipe returns from inspection the vrollers shall automatically drop to allow the pipe to roll to the next station. ,requirement
+"Mortar joints shall be protected from rapid drying and from damage to plastic mortar while backfilling. To facilitate curing and to provide protection from drying, the mortar bands may be coated with a liquid membrane_x0002_forming compound conforming to ASTM Standard C309, Specifications for Liquid Membrane-Forming_x0002_Compounds for Curing Concrete, or the joint may be covered with plastic sheeting or other approved materials conforming to ASTM Standard C171, Specifications for Sheet Materials for Curing Concrete. The sheet materials also provide some protection to soft or plastic mortar during backfilling",standard
+ Each box end threading inspection station shall have an automatic adjustable pipe stop. ,requirement
+the machinery shall be designed to run between 60 and 80 psig.,requirement
+"The Supplier shall furnish all equipment, controls, data, drawings, etc. defined in the Purchaserís documents and data including, but not limited to, the following major components: Yarn Combs.",requirement
+All Engineering documents and data listed in the Vendor Data Requirements Form including but not limited to the following: Foundation Loads and Anchorage Details including flatness tolerance and other requirements on floor.,requirement
+ Each of the vrollers shall be individually driven with SEW two horsepower gearmotors identical to the motors on the vrollers in quench and temper. ,requirement
+The Dish shall be capable of slewing in elevation at a rate of 1 deg/sec under Precision and Standard Operating Conditions. Gradual degradation will be allowed under Degraded Operating Conditions up to a maximum of 50% under Extreme Operating Conditions.,requirement
+"tsnPpMmIdMsduMaskMaxLength is a read-only variable defined for each port the Mask-and-match Stream identification function is to be run on. It defines the maximum length a mac_service_data_unit mask can have. It is an integer value, in octets, with a minimum value of 2 and a maximum value of 1984 (maximum ISS mac_service_data_unit length for an IEEE 802.3 frame)",standard
+ Each pin end end blast station design shall be identical to that of the box end end blast station. ,requirement
+ Each of the assemblies of radial rollers shall be mounted to multiple dampening pneumatic bladders to reduce rotational force effects. ,requirement
+"Packaged LRU's and SRU's that require periodic maintenance during storage shall be
+packaged in red-coloured containers.",requirement
+Major equipment items supplied by the Supplier shall be fitted with a securely mounted stainless steel nameplate displaying the following information: The purchaserís equipment tag number CR-301.,requirement
+"For pipe NPS 2 [DN 50] and under, a sufficient length of pipe shall stand being bent cold through 90° around a cylindrical mandrel, the diameter of which is twelve times the outside diameter (as shown in ASME B 36.10M) of the pipe",standard
+"At the option of the purchaser or his representative, a casting of each design ordered may be tested to destruction or otherwise broken up to determine the presence of any manu_x0002_facturing condition that might be detrimental to the service_x0002_ability of the casting",standard
+"Compact the mixture to a minimum of [95] percent of the max-
+imum density as determined from a field sample, taken as compaction begins, according to
+AASHTO T 134. The Engineer will determine in-place field density according to AASHTO
+T 191 or T 310, correcting for oversized particles as necessary.",standard
+"The signal content shall be in the following frequency ranges, in the transmitted data: 
+a) Band 1: 0.35 - 1.05 GHz
+b) Band 2: 0.95 - 1.76 GHz
+c) Band 3: 1.65 - 3.05 GHz, 2nd Nyquist Zone
+d) Band 4: 0.30 - 2.68 GHz 
+e) Band 5a: 0.25 - 2.75 GHz 
+f) Band 5b: 0.25 - 2.75 GHz",requirement
+"Apply hydrated lime or quicklime at the specified rates. Apply hydrated lime
+as a slurry or in a dry form. Apply quicklime only in a dry form. Mix quicklime thoroughly
+with the dry roadbed material before adding water; add water to the mixture within 6 of dry
+mixing.",standard
+ Each pipe shall gravity roll to the fixed pipe stop at the pin end end blast station. ,requirement
+The base shall be concentric with the disc electrode within .040(1.02 mm).,standard
+A 200 response shall be provided in a success case. The payload shall contain information for the requested Device.,standard
+all sensors and devices will be pnp type.,requirement
+"The Supplier's equipment and system shall be designed for maximum personnel safety including, but not limited to, the following: Warning signs.",requirement
+"Grade the roadbed surface to the specified lines, grades, and cross
+sections. Dispose of excess material as specified in Subsection 201.3.",standard
+ When a pipe is detected at the fixed pipe stop the pipe shall automatically be lifted to the next station. ,requirement
+All Engineering documents and data listed in the Vendor Data Requirements Form including but not limited to the following: Component Drawings.,requirement
+"In cases where saturation occurs in the signal path, DSH shall flag data for the entire period of saturation, including the recovery period.",requirement
+ Each pipe shall undergo threading. ,requirement
+"When sampled data connectivity is lost to a receptor, CSP_Mid.CBF shall flag any affected data as invalid and an alert raised, but otherwise normal operations continue.",requirement
+"If post-weld heat treatment is required, Class 1 must be specified along with the grade, and the welds to be heat treated must be defined. If post-weld heat treatment is not required, Class 2 must be specified along with the grade.",standard
+CSP_Mid.CBF power draw rate of change shall be less than 20% of the maximum power draw averaged over a one second interval (TBC) during startup and mode transitions in accordance with the latest approved version of the MID CSP to INFRA ICD.,requirement
+Any coil not confirming to the foregoing specifications may be rejected and the manufacturer or distributor notified,standard
+"If tension specimens are to be machined from castings, their location in the casting, the specimen dimensions, and the required properties shall be agreed upon in writing by the foundry and purchaser",standard
+DSH shall start up in LOW_POWER state and remain in low power until commanded by TM to go to FULL_POWER.,requirement
+"At the manufacturer’s option, castings may be reheat treated and retested. When castings are reheat treated, they may not be re-austenitized more than three times without the approval of the purchaser. Testing after reheat treatment shall consist of the full number of specimens taken from locations complying with the specification or order",standard
+ The adjustable pipe stop design shall be identical to the pipe stop design used in quench and temper. ,requirement
+"Where it would not be possible or practical to drain a pipeline to replace or repair mechanical air vents, a shutoff valve should be installed between the pipe and the valve.",standard
+DSH shall supply a payload packet generator with the ability to set fields and errors within the test payload via command-line or GUI interface.,requirement
+"Protect and maintain the subgrade surface until covered. Construct at least one course of base
+or subbase on the treated subgrade before using it for hauling operations.",standard
+The Transient Buffer for CSP_Mid.CBF shall allow for a latency of up to 62 seconds from the Transient Epoch until the Transient Trigger from CSP_Mid.LMC is present on the CSP_Mid.LMC to CSP_Mid.CBF interface.,requirement
+"When producing Pulsar Search beams, for any Band, the CSP_Mid.CBF Search Window beamforming bandwidth (before channelization) shall have spectral confusion of no more than -40 dB in amplitude and 0.01 radians in phase compared to an ideal beamformer provided with the same inputs.",requirement
+"A request to this API may be invoked by the Origin Cloud on completion of account linking. Where the Origin Cloud supports the behaviour defined in OCF Device to Cloud Services this may also be invoked by reception of a RETRIEVE to ""/oic/res"" of the OCF Cloud Resource Directory from an OCF Client",standard
+"As an alternative to the hydrostatic test at the option of the manufacturer or where specified in the purchase order as an alternative or addition to the hydrostatic test, the full body of each pipe shall be tested with a nondestructive electric test in accordance with Practice E213, E309, or E570. In such cases, the marking of each length of pipe so furnished shall include the letters “NDE.” It is the intent of this nondestructive electric test to reject pipe with imperfections that produce test signals equal to or greater than that produced by the applicable calibration standard.",standard
+communication wiring will be run separately from ac inductive load wiring (> 65 volts).,requirement
+design of equipment shall be so arm movements pivot about the elbow rather than around the shoulder.,requirement
+access under the equipment will have a minimum of 1.0 foot clearance from the floor to any wire way or main wiring and or enclosures equipment to allow for quick and effective cleaning under the equipment (does not include equipment bolted to the floor such as robotic bases or structural footing).,requirement
+ Each of the vrollers shall then return to the up position and shall be prepared to accept the next pipe. ,requirement
+ The delay or expense caused by defective or delayed customer supplied material shall not be included in this proposal and shall be charged separately. ,requirement
+The protocol shall be point-to-point on Data Link Layer.,requirement
+Any coil not confirming to the foregoing specifications may be rejected and the manufacturer or distributor notified,standard
+At a design point downstream from where there is opportunity for air entrainment and inadequate opportunity for escape of that air,standard
+vertical toe clearance should be 4î.,requirement
+"Unless otherwise specified in the contract, the producer is responsible for the performance of all inspec_x0002_tion and test requirements specified herein. Except as otherwise specified in the contract, the producer shall use his own, or any other suitable facilities for the performance of the inspection and test requirements specified herein, unless disapproved by the purchaser. The purchaser shall have the right to perform any of the inspections and tests set forth in this specification where such inspections are deemed necessary to ensure that the material conforms to the prescribed requirements",standard
+"Cast-in-place pipe shall be used only in stable soils or soils that have been stabilized as in Section 3.3 of ACI Standard 346, Specifications for Cast-in-Place Nonreinforced Concrete Pipe, where the trench form conforms to the trench requirements per Chapter 3 of the above-referenced standard.",standard
+American Institute of Steel Construction (AISC).,requirement
+"Tension test results, obtained in accordance with the above subsections, must conform to the values of Table 1 for acceptance under this specification except as provided in 7.4.3",standard
+The DSH components shall be designed modular to enable easy removal and replacement of faulty line replaceable units.,requirement
+"DSH, when in the STOW mode, and when in FULL_POWER state, shall be able to change frequency bands.",requirement
+"The term “commercial castings” does not cover castings requiring special fixtures for gaging, or finishing castings by grinding to special tolerance gages beyond the normal requirements as listed in Table S51.1.",standard
+"when possible, all subroutine calls should be made from the same program module.",requirement
+Contact disc external surfaces and H-F electrode shall be gold plated min 10 msi or silver plated 15 msi on external surfaces (edges of disc need not be plated).,standard
+"The Supplier shall furnish all equipment, controls, data, drawings, etc. defined in the Purchaserís documents and data including, but not limited to, the following major components: Yarn Rollers.",requirement
+"All test specimens shall be heat treated in the same production furnaces and in the same cycles as the castings they represent. However, in those instances wherein the critical sections of the production castings differ appreciably from that of the central portion of the test specimens, the time cycle for tempering the test specimens may be altered from that of the production lot in order to obtain similar microstructures or hardness, or both, in both specimen and castings. In such cases the hardness of the specimens shall be tested and reported along with the tensile test results.",standard
+Electrical circuit inter-locks shall be provided to prevent personnel coming into contact with hazards that cannot otherwise be eliminated from design.,requirement
+"Construct a permeable base course of aggregate and bituminous material mixed in a central plant
+and spread and compacted on a prepared foundation.",standard
+Exposed machined contact surfaces shall be coated with an easily removable rust preventative and protected against mechanical damage by a suitable cover.,requirement
+"Distribute topsoil evenly to a lightly compacted depth of at least [2 in. (50 mm)] on slopes 3:1
+(1:3) or steeper and [4 in. (100 mm)] on flatter slopes. Place during conditions that are favorable
+for grading, sodding, or seeding",standard
+"Under precision and standard operating conditions, each SKA1_Mid dish shall achieve
+Dish sensitivity (averaged) of at least 8.70 m2/K in both polarization channels over SPF band 5a.",requirement
+"When agreed upon between manufacturer and purchaser, tested specimens or unbroken test bars shall be preserved by the manufacturer for a period of three months after the date of the test report.",standard
+"After processing, uniformly shape and compact the CIR to the lines, grades, and
+depths indicated. Cure the CIR base as necessary.",standard
+"The microstructure of the malleable iron shall consist of temper carbon nodules distributed through a ferritic matrix and shall be free of excessive pearlite, massive carbides, and primary graphite",standard
+"If any specimen is machined improperly or if flaws are revealed by machining or during testing, the specimen may be discarded and another substituted from the same heat.",standard
+"Test signals produced by imperfections which cannot be identified, or produced by cracks or crack-like imperfections shall result in rejection of the pipe, unless it is repaired and retested. To be accepted, the pipe must pass the same specifi_x0002_cation test to which it was originally subjected, provided that the remaining wall thickness is not decreased below that permitted by this specification. The OD at the point of grinding may be reduced by the amount so reduced",standard
+The ieee802-dot1cb-mask-and-match YANG module defined in this standard provides an additional Stream identification functionality by augmenting the Stream identification functionality provided by the ieee802-dot1cb-stream-identification module,standard
+Wire shall be capable of being uncoiled from both the inside and the outside of the coil.,standard
+"The DSH shall survive, without any residual damage or performance degradation, when operated under the Deployed Conditions throughout the Deployed Lifetime. For conditions more severe than the Extreme Operating Conditions the DSH shall be stowed.",requirement
+The Dish shall be capable of slewing in azimuth at a rate of 3 deg/sec under Precision and Standard Operating Conditions. Gradual degradation will be allowed under Degraded Operating Conditions up to a maximum of 50% under Extreme Operating Conditions.,requirement
+"
+When commanded, independently for each subarray within each Frequency Slice Processor configured for the Correlation function, CSP_Mid.CBF shall produce zoom visibilities from Zoom Window processed bandwidths of 1/2, 1/4, 1/8, 1/16, 1/32, or 1/64 of its Frequency Slice processed bandwidth, with at least 0.01 MHz Zoom Window center frequency tuning resolution.",requirement
+"An analysis of each heat of steel shall be made by the steel manufacturer to determine the percentages of the ele_x0002_ments specified in Section 7. If the secondary melting pro_x0002_cesses of 5.1 are employed, the heat analysis shall be obtained from one remelted ingot or the product of one remelted ingot of each primary melt. The chemical composition thus determined, or that determined from a product analysis made by the manufacturer, if the latter has not manufactured the steel, shall be reported to the purchaser or the purchaser’s representative, and shall conform to the requirements specified in Section 7",standard
+"If the purchaser requires soundness tests to be performed, it shall be so stated in the purchase agreement, and the method and soundness requirements shall be detailed",standard
+a list of abbreviations for different components will be provided at the beginning of all wiring diagram documentation.,requirement
+"When commanded and processing data from Band 4, CSP_Mid.CBF shall accept dual polarization digitized data from each SKA1_Mid receptor at a sample rate of 5.94+k*3/2*delta_f/1e9 Gsamples/sec, with the RF (sky) band of interest present in the digitized signal from 0.295 to 2.675 GHz, with the same frequency sense as RF, with sky center frequency of 3.99 GHz, and with a net down-conversion frequency of 2.505 GHz.
+Where: k=positive integer defined for each receptor by CSP_Mid.LMC, delta_f=1800 Hz, and k*3/2*delta_f does not exceed 4 MHz.",requirement
+"The SKA1_Mid dish, under Standard Operating Conditions, shall have a phase stability of <= 2 ° RMS after correcting for a linear fit based on measurements taken with 5 second sampling at 5 minute time intervals, even when it changes orientation arbitrarily and when it switches from a band to any other band and then back.",requirement
+The ends of pipe sections at all joints and connections shall be washed or brushed clean and thoroughly wetted immediately prior to placing the mortar. Care should be taken to assure that all joints and connections are filled with mortar before joining to attain at least a 6 mm (0.25 in.) thick mortar joint and that excess mortar is wiped from the inside of the pipe. The external bands shall be complete around the circumference of the pipe and no less than 10 mm (0.4 in.) thick at the joint,standard
+"Test specimens for the bend test specified in 11.2 shall be cut from one end of the pipe and, unless otherwise specified, shall be taken in a transverse direction. One test specimen shall be taken as close to the outer surface as possible and another from as close to the inner surface as possible. The specimens shall be either 1⁄2 by 1⁄2 in. [12.5 by 12.5 mm] in section or 1 by 1⁄2 in. [25 by 12.5 mm] in section with the corners rounded to a radius not over 1⁄16 in. [1.6 mm] and need not exceed 6 in. [150 mm] in length. The side of the samples placed in tension during the bend shall be the side closest to the inner and outer surface of the pipe respectively",standard
+system will be programmed to automatically stop and show messages where needed intervention for maintenance is required at defined intervals interval must have the ability to be changed via the operator panel.,requirement
+"When commanded, unless otherwise required, CSP_Mid.CBF shall complete any signal processing configuration or reconfiguration, within 24 seconds from the specified configuration or re-configuration start time.",requirement
+the top of the conveyer as well as feeding tracks shall be 37 inches above the floor (with adjustable feet).,requirement
+ Each pipe shall gravity roll to the adjustable pipe stop at the box end threading station. ,requirement
+"Except as provided for thin-wall pipe in paragraph 12.2 of Specification A530/A530M, the tolerances for diameter shall be in accordance with the following",standard
+"module status indicator lighting will be as follows
+green light (solid): no faults present on module
+green (flashing): quality check is switched off
+yellow (solid): manual mode ñ not in automatic
+yellow (flashing): parts bin out of parts
+red and yellow (flashing): station out of parts
+red (solid): station is faulted
+red (flashing): station stopped - part failed caused by % counter of faults
+green and yellow and red (solid): station is deactivated
+green (solid) yellow (flashing): no faults, cycle time above limit.",requirement
+"When commanded, CSP_Mid.CBF shall form at least 1500 independently steerable Pulsar Search beams, each of which may be assigned to any sub-array in Pulsar Search Mode. Note: CSP_Mid.CBF may restrict the number of beams per sub-array to an integer multiple of 8 or less.",requirement
+The specified life is based on ignitor life only. This will be reduced if the tube is operated at full rated rf conditions.,standard
+"
+While tracking at nominal tracking rates over the accessible elevation range, the Dish shall be capable of executing a 30' step in either mount axis or combined, in less than 5 seconds (TBC).",requirement
+"all e-stop pushbuttons must, when pressed, remain in the actuated position to disengage, all estop pushbuttons must be turned and pulled out.",requirement
+all test related equipment is required to have isolated dc power supplies when used for measuring or testing applications.,requirement
+All test specimens shall be suitably identified with the designation of either the batch-melted heat or the pour period of a continuous heat,standard
+"The Agency will base payment for quicklime upon a 90 percent available lime index calculated
+as percent calcium oxide (CaO) by weight.",standard
+The TM shall provide “tunnelling” capability to facilitate remote software and firmware upgrades.,requirement
+This request is sent from the Origin Cloud to the Target Cloud in order to obtain information on all the Devices that are registered for the user that are in scope as defined by the Bearer Token on the Target Cloud.,standard
+Weld repair shall be permitted only subject to the approval of the purchaser and in accordance with Specification A530/A530M,standard
+"If the percentage of elongation of any tension test specimen is less than that given in Table 1 and any part of the fracture is more than 3⁄4 in. [19 mm] from the center of the gauge length of a 2-in. [50-mm] specimen as indicated by scribe scratches marked on the specimen before testing, a retest shall be allowed. If a specimen breaks in an inside or outside surface flaw, a retest shall be allowed.",standard
+CSP_Mid.CBF equipment connected to the CPF electrical network shall be compliant with the IEC 61000-4-8 standard or equivalent for power frequency magnetic field immunity under standard test conditions and setups in accordance with the latest approved version of the MID CSP to INFRA ICD.,requirement
+ Each pipe shall be transferred by walking beam from the adjustable pipe stop to the vrollers in the pin end threading station. ,requirement
+"When commanded, CSP_Mid.CBF shall independently track delay and phase for each polarization of each SKA1_Mid receptor, with a net (instrumental+atmospheric) worst-case receptor differential polarization delay in any Band of 10 nanoseconds and with a differential delay rate, at any instant, that is less than 0.01 times sidereal.",requirement
+"At the request of the purchaser, analyses of two pipes from each lot (see 20.1) shall be made by the manufacturer from the finished pipe. The results of these analyses shall be reported to the purchaser or the purchaser’s representative and shall conform to the requirements specified in Section 7",standard
+"The total per-receptor RMS Tracking Stability Error under Precision Operating Conditions, maintained while tracking a celestial target anywhere within the full performance pointing range over a time interval of 1000 seconds, shall be <= 2.3 arcsec RMS.",requirement
+"When commanded, CSP_Mid.CBF shall, in each Frequency Slice Processor configured for VLBI, produce beam-channels with selectable sampled bandwidths of 224 MHz, 128 MHz, 64 MHz, 32 MHz, 16 MHz, 8 MHz, 4 MHz, 2 MHz, and/or 1 MHz.",requirement
+ The paddle lift design shall be similar to that used in quench and temper with like components used where appropriate and the actuator shall be the same make if the electric cylinder is chosen. ,requirement
+ Each box end end blast station frame shall be constructed of welded structural members. ,requirement
+"For castings of such size or shape that do not permit Brinell testing with the standard 3000 kgf load, the 500 kgf may be employed, the hardness number being reported as HB 10/500/15. In very unusual cases where it is impossible to use the Brinell method, the Rockwell test may be substituted, using Test Methods E18 with an appropriate Rockwell scale. Con_x0002_versions of hardness values from one method to another according to Hardness Conversion Tables E140, which does not specifically cover cast irons, are approximate only and, therefore, are generally inadvisable",standard
+all measuring devices and sensors will be self checking to prevent assembly errors or equipment crashes due to a device or sensor failure via: ¯ ëstuck sensorí error required to notify a missed sensor change of state (off on) ¯ ëover timeí error required to notify an excessive actuator travel time.,requirement
+Construction shall be such as to insure that the vibration from the pump discharge pipe is not carried to the stand,standard
+An Origin Cloud shall include unaltered in the requestURI of the request sent to the Target Cloud any query parameters received over the Device to Cloud connection,standard
+"Castings failing to conform to the required hardness range may be reheat treated and retested. If after reheat treating they still fail the hardness requirements, they shall be rejected",standard
+"Where the hydrostatic test and the nondestructive electric test are omitted and the lengths marked with the letters “NH,” the certification, where required, shall clearly state “Not Hydrostatically Tested,” and the letters “NH” shall be ap_x0002_pended to the product specification number and material grade shown on the certification",standard
+"Use equipment capable of automatically metering liquids with a variation of no more than
+±2.0 percent by weight of liquids.",standard
+Wire shall be free from injurious heavy scale and surface imperfections,standard
+"Over the full accessible elevation range, under Precision and Standard Operating Conditions, Antenna efficiency in two orthogonal polarizations shall exceed a line interpolated linearly between:
+60% at 350 MHz 78% at 600 MHz 78% at 8000 MHz 70% at 15 GHz 65% at 20 GHz",requirement
+"Unless otherwise specified, standard practices as covered by the American Iron and Steel Institute in the latest revision of the AISI Steel Products Manual, Wire and Rods, Carbon Steel, shall govern on all points covered by this specification",standard
+"At the purchaser’s discretion, pipe shall be subjected to rejection if surface imperfections acceptable under 18.2 are not scattered, but appear over a large area in excess of what is considered a workmanlike finish. Disposition of such pipe shall be a matter of agreement between the manufacturer and the purchaser",standard
+"Specifies the 48-bit value of the masked destination_address, as defined in 9.1.6.1, to be matched by the instance of the Mask-and-match Stream identification function",standard
+"When commanded, CSP_Mid.CBF shall automatically compensate VLBI beam-channel amplitudes to be RFI-flagging invariant.",requirement
+tooling or fixtures switched during change over shall attach to a sub-plate in accordance with ësingle minute exchange dieí (smed) design philosophies.,requirement
+ The vrollers of the box end pipe dope station shall then return to the up position and shall be prepared to accept the next pipe. ,requirement
+vacuum grippers are only permitted if written approval is obtained from pierburg magnetic grippers are not permitted due to their interference with electrical and other components.,requirement
+ Each transfer table shall be similarly designed and located between previous and next operation. ,requirement
+"When commanded, CSP_Mid.CBF shall use the packet counter defined in the DISH to CSP ICD to automatically detect and recover from lost packets without the need for any telescope calibration or other external action.",requirement
+"when the station is in manual mode or the robot is in teach mode, the robot shall move at only 1.00% of full velocity with reduced torque.",requirement
+"DSH shall report information in a hierarchical structure, including a product breakdown structure and a capability structure.",requirement
+Component design and system performance shall be based on the following utilities and site conditions: Site Conditions Elevation: 836 Feet above Sea Level Atmospheric Pressure: 14.25 PSIA Ambient Temperature: -10∞F to 105∞F (-23.3∞C to 40.5∞C).,requirement
+"The sensitivity of a SKA1_Mid dish shall not be less than the following compared to that which is specified in R.M.P.1, at any pointing angle over the full accessible elevation range, under precision and standard operating conditions, and when calculated as an average over any 1 MHz interval over the specified frequency range in both polarization channels: 75% for SPF band 4.",requirement
+ The vrollers of the box end pipe dope station shall transfer the pipe towards the operator for manual application of dope and coupling screw on. ,requirement
+any part of the machine must be within reach of an e-stop pushbutton.,requirement
+ Each pipe shall gravity roll on the transfer table towards the bucker station. ,requirement
+all wire ends will have crimped metal shunt ends the appropriate size for the wiring being used bare wire ends can be used for incoming high voltage terminal connections greater the 480v only appropriate controlled pressure crimping tools will be used to crimp wires during assembly.,requirement
+"For additional details on PAN Bobbin packaging, see attached drawing No SKETCH001.",requirement
+"The TM shall send pointing commands, as individual Pointing Coordinate Sets with an update rate of not more than 10Hz, to the DSH Dish.",requirement
+"If, after testing, a specimen shows evidence of a defect, another tension test may be made on a companion specimen. Also, a retest shall be permitted whenever fracture occurs outside the central 50 % of the gage length.",standard
+"In N images, there are Les lesions, of which LL lesions are correctly detected by artificial intelligence algorithm, NLL image regions without lesions are misdiagnosed, and M of N cases contain non_x0002_lesion localization. NN is the number of images that contain no lesion. This assumption applies to Equation (A.10) to Equation (A.17",standard
+"any device, i.e. cylinder, valve, torque gun, robot, etc., must have the ability to be  actuated from manual mode.",requirement
+"The tensile strength shall be the maximum load carried by the specimen during the test divided by the original cross-sectional area of the gage length, as found in accordance with 7.3.2. It shall be reported to the nearest 100 psi [MPa].",standard
+"When commanded and processing data from Band 5a, CSP_Mid.CBF shall accept two streams (5a1 and 5a2) of dual polarization digitized data from each SKA1_Mid receptor. For each stream:
+1. the sample rate is 5.94+k*3/2*delta_f/1e9 Gsamples/sec.
+2. the bandwidth of the band of interest is 2.5 GHz
+3. the sky RF center frequency may be TM-defined tuned anywhere between f_c_rf=5.85 and f_c_rf=7.25 GHz
+4. the center frequency of the band of interest in the digitized signal is f_c_boi=1.485-k*9/8*delta_f/1e9 + f_shift GHz
+5. has the same frequency sense as RF and
+6. has net downconversion frequency of f_c_rf_c_boi=f_c_rf- f_c_boi
+Where: k=positive integer defined for each receptor by CSP_Mid.LMC, delta_f=1800 Hz, f_shift is CSP_Mid.LMC-defined anywhere in the range of at least +/-1/2 Frequency Slice processed bandwidth with at least 0.01 MHz tuning resolution, and k*3/2*delta_f does not exceed 4 MHz.",requirement
+conveyors will transport product in Çreasonableí original packaging from component supplier repackaging of components to equipment specific bins is not desired.,requirement
+"For flux leakage testing, the longitudinal calibration reference notches shall be straight-sided notches machined in a radial plane parallel to the pipe axis. For wall thicknesses under 1⁄2 in. [12.7 mm], outside and inside notches shall be used; for wall thicknesses equal to and above 1⁄2 in. [12.7 mm], only an outside notch shall be used. Notch depth shall not exceed 121⁄2 % of the specified wall thickness, or 0.004 in. [0.1 mm], whichever is greater. Notch length shall not exceed 1 in. [25 mm], and the width shall not exceed the depth. Outside diameter and inside diameter notches shall be located suffi_x0002_ciently apart to allow separation and identification of the signals",standard
+"The container shall also carry, in a different location, the name and/or brand name of the wire manufacturer, and necessary instructions for storing and handling",standard
+Surface imperfections that penetrate more than 121⁄2 % of the nominal wall thickness or encroach on the minimum wall thickness shall be considered defects. Pipe with such defects shall be given one of the following dispositions:,standard
+"Castings failing to conform to the required hardness range may be reheat treated and retested. If after reheat treating they still fail the hardness requirements, they shall be rejected.",standard
+S51.1 Tolerances for commercial steel castings (S51.1.1) made from mounted patterns and the surfaces that are not to be machined shall be in accordance with Table S51.1. Metal match plate patterns and precise molding methods can produce closer tolerances than the values shown in Table S51.1. Complex casting designs may require different permissible variations than those listed in Table S51.1.,standard
+"DSH shall have the following Modes and report these modes to TM: 
+a) SHUTDOWN
+b) STARTUP 
+c) STANDBY_LP 
+d) STANDBY_FP 
+e) STOW 
+f) MAINTENANCE 
+g) CONFIGURE 
+h) OPERATE",requirement
+"When the tube is fired by the application of high power in cavity according to Drawing 162-JAN which is at resonance, the transmitted power obtained shall be less than that of a standard tube fill with pure hydrogen to a pressure of 25 mmHg. The power level at the input shall be sufficient to fire the rf gap of the tube and to insure that the measurement is being made on the flat part of the “power in the gap versus leakage power” characteristic. If the main discharge gap does not fire, it is caused to be fired by a short application of ignitor voltage.",standard
+"When sampled data connectivity is lost to a receptor, CSP_Mid.CBF shall flag any affected data as invalid and an alert raised, but otherwise normal operations continue.",requirement
+"Incorporate a minimum cement content of 7.4 lb/ft3 (118 kg/m3). Fly ash may
+be substituted for up to [25] percent of the required cement, with this substitution in the ratio
+of 1 lb (1 kg) of fly ash for each 1 lb (1 kg) of cement. Do not use fly ash from [November 1
+through April 1]. Ensure that the water cement ratio (w/c) does not exceed 0.45, calculated
+as follows:",standard
+ The vrollers of the bucker station shall transfer the pipe towards the operator for manual inspection. ,requirement
+"For pipe whose diameter exceeds 25 in. [635 mm] and whose diameter to wall thickness ratio, where the diameter to wall thickness ratio is the specified outside diameter divided by the nominal wall thickness, is 7.0 or less, the bend test shall be conducted. The bend test specimens shall be bent at room temperature through 180° with the inside diameter of the bend being 1 in. [25 mm] without cracking on the outside portion of the bent portion",standard
+input wait time ñ collective time by shift that a station waits without being faulted for parts from a station upstream.,requirement
+mtw will be used for machine wiring up to awg 1.00.,requirement
+"The carbon equivalent (CE), based upon heat analysis, shall not exceed 0.43 % if the specified wall thickness is equal to or less than 1 in. [25.4 mm] or 0.45 % if the specified wall thickness is greater than 1 in. [25.4 mm]",standard
+DSH shall provide an environmental protected enclosure inside the Pedestal Shielded Compartment and maintain the internal conditions as defined by the DSH Consortium Non-Operating Conditions for equipment located inside the PSC for SADT equipment located inside the pedestal while being subjected to Survival Conditions.,requirement
+The centerline of the pump discharge pipe shall have a minimum offset from the centerline of the outlet pipe equal to the sum of the diameters of the inlet and outlet pipes,standard
+"When commanded, for each subarray CSP_Mid.CBF shall form Pulsar Timing beams, each with a selectable contiguous dual- polarization beamforming bandwidth, in steps of the Frequency Slice processed bandwidth, with a total bandwidth up to the Band's processed bandwidth or 2.5 GHz, whichever is smaller.",requirement
+"Complete final compacting and finishing operations within 12 of
+the final mixing. Compact the mixture to a minimum of 95 percent of the maximum density
+as determined by AASHTO T 99 or AASHTO T 180. Remove all equipment imprints and
+use a pneumatic-tired roller for final finish rolling.",standard
+"whenever possible form features shall be used to hold product components in grippers clamping forces shall not mark, deform or damage the product in any way.",requirement
+"All couplings and other moving parts that could cause injury if inadvertently contacted by personnel shall be guarded for personnel protection Guards shall not create a hazard of its own, be securely fastened, and sturdy enough to support an impact load of personnel falling against the guard Guards shall be welded and bolted construction Use of sheet metal screws is not acceptable Guards shall be painted orange.",requirement
+"While the values for yield point and yield strength are not identical, they are sufficiently close for most applications of ferritic malleable irons to be used interchangeably. They may be determined by any of the approved techniques described in the paragraphs on Determination of Yield Strength and Yield Point of Test Methods E8/E8M. If determined as yield strength, that stress producing an extension under load of 0.01 in. [0.25 mm] over the 2 in. [50 mm] gage length (for example, 0.5 % extension) or an offset of 0.2 % shall be taken as the yield stress, which shall be converted to yield strength by dividing by the original cross-sectional area of the gage length found in accordance with 7.3.2. It shall be reported to the nearest 100 psi [MPa]. In referee work, yield strength shall be determined as the stress that produces an extension under load of 0.5 % of the gage length.",standard
+no process shall require ëoperator vigilanceí to ensure stability and capability.,requirement
+"Where items used in CSP_Mid.CBF require labelling, the method of marking shall be compliant with the SKA Logistic Analysis Plan. The nature of the item, its environment and its use will determine the method.",requirement
+ The AEC shall also include one week of onsite production assistance including one AEC technician onsite to train operators on the job. ,requirement
+Fiber Unwinding Speed: Nominal: 457.2 miles per hour (1500 feet per hour).,requirement
+"After reaching a stress equivalent to approximately half of the anticipated yield stress, the speed of the moving head of the testing machine shall not exceed 0.50 in./min [12.5 mm ⁄min] through the breaking load.",standard
+"If the results of a valid test fail to conform to the requirements of this specification, two retests shall be made. If either retest fails to meet the specification, the castings repre_x0002_sented by these test specimens shall be rejected. A valid test is one wherein the test specimen has been properly prepared and appears to be sound and on which the approved test procedure has been followed",standard
+"The computer aided segmentation function of artificial intelligence medical device is used to mark the boundaries of lesions, organs or tissues. A is the target area, B is the segmentation area, and C is the intersection of the two, (CAB = ∩ ) .",standard
+"Maximum working head for cast-in-place pipelines shall be 4.5 m (15 ft) above the centerline of the pipe. Maximum working heads for precast nonreinforced concrete pipe with mortar joints shall not exceed one-fourth the certified hydrostatic test pressure as prescribed in ASTM Standard C118, Specifications for Concrete Pipe for Irrigation or Drainage, and for pipelines with rubber-gasket joints, one-third the certified hydrostatic test pressure as prescribed in ASTM Standard C505, Specifications for Nonreinforced Concrete Irrigation Pipe with Rubber Gasket Joints",standard
+transport pallet shall be used to transport the product pallet will not be used as fixtures for critical operations pierburg inc must approval deviations from this specification if pallet are used as fixtures then each measurement must have a capability (cpk) > 1.0.33 the measurement report has to be provided to pierburg inc. .,requirement
+"If sufficient companion test bars are unavailable, the manufacturer shall have the option of testing a specimen cut from a representative casting. Therefore, as stated in X1.3, the mechanical properties of such tension test specimen removed from a production casting will not necessarily correspond to those of a standard separately cast test specimen, the values in Table 1 do not apply. Instead, the mechanical properties of the test specimen from the casting must equal or exceed the average of those from similar test specimens removed from the same location from two castings of the same design where separately cast test bars meet the requirements of Table",standard
+"For multiple binary confusion matrices, such as multiple tests using one data set, tests on multiple data sets, or even multi-classification tasks, each combination of two categories corresponds to a confusion matrix. When considering various indicators comprehensively on n binary confusion matrices, one direct method is to calculate the parameters on each confusion matrix, and then calculate the average value. Another option is to average the corresponding elements of various confusion matrices, namely, the average values of TP, FP, TN and FN, and then calculate all parameters again",standard
+"The tension test specimens shall be cast to the form and dimensions shown in Fig. 1 or Fig. 2, in the same kind of molding material used for the production castings. At least three such specimens shall be cast from a representative ladle of iron either from each batch-melted heat or, in continuous melting, from each 4 h pour period during which the purchas_x0002_er’s castings were poured, or as otherwise agreed upon between manufacturer and purchaser",standard
+"When agreed upon between manufacturer and purchaser, tested specimens or unbroken test bars shall be preserved by the manufacturer for a period of three months after the date of the test report",standard
+"When flagging visibilities, CSP_Mid.CBF shall identically flag all polarization products of any particular visibility as invalid if any polarization product of the particular visibility is flagged bad. Note: applies to zoom, non-zoom, and visibilities produced in support of VLBI.",requirement
+"When commanded, CSP_Mid.CBF shall track delay
+with sufficient precision such that the maximum delay offset (bias) within the processed bandwidth, over any time interval is not greater than +/-0.005 sample intervals, relative to the delay model provided by CSP_Mid.LMC, where the sample interval is the inverse of the sample rate for the sampled bandwidth in question.",requirement
+"
+CSP_Mid.CBF equipment shall be compliant with the IEC 61000- 6-2 standard or equivalent for susceptibility to conducted and radiated emissions under standard test conditions and setups.",requirement
+"Except for pipe ordered as special outside diameter tolerance pipe or as inside diameter tolerance pipe, variations in outside diameter shall not exceed those given in Table 3",standard
+ Quoted delivery shall be contingent upon but not limited to receipt of sample parts part drawings reference drawings technical information and receipt of prior orders. ,requirement
+Where the Origin Cloud supports OCF Device to Cloud Services a request to this API may be triggered by reception of an UPDATE to a URI exposed by a Link in the OCF Cloud Resource Directory from an OCF Client.,standard
+"Each CSP_Mid.CBF Pulsar Search beam shall be output as power in each of all 4 Stokes parameters, each parameter being the average of a CSP_Mid.LMC-commanded integer number of adjacent temporal power samples from minimum 64 microseconds to maximum 400 microseconds, with the phase of the
+averaging interval aligned across all beams within each subarray.",requirement
+"Wire shall be free of kinks and shall be of continuous length; therefore, it shall contain no twisted splices. Welded joints shall be dressed down to wire diameter.",standard
+"For all SKAO-defined RFI use cases in all Bands, but strictly
+for the case of unflagged visibility spectral channel
+samples containing no more than 10% of their power as RFI, when commanded CSP_Mid.CBF shall maintain a net sampled data input-to-visibility output correlation efficiency of greater
+than 0.98 on the sky signal of interest within the processed bandwidths for Bands 1, 2, 3, and 4, and at least 0.96 or better for each of Bands 5a and 5b, compared to an ideal CSP_Mid.CBF system with the same inputs. Note: applies to both zoom and non-zoom visibilities.",requirement
+each station can be switched off bypassed separately through the hmi (password protected) deactivation of a station must be indicated by the module status lighting (see 2.7).,requirement
+"While the CSP_Mid.CBF Administrative Mode is set to ONLINE or MAINTENANCE, the CSP_Mid.CBF shall isolate more than
+95% of all failures down to a LRU level.",requirement
+ After the pipe returns from inspection the vrollers shall automatically drop to allow the pipe to roll to the next station. ,requirement
+"The container shall also carry, in a different location, the name and/or brand name of the wire manufacturer, and necessary instructions for storing and handling",standard
+"Furthermore, the 'LanguagePreferredComponentDef' elements in the 'LanguagePreferredList' element can be reordered according to the language preference settings of the user's system or environment. For example, a CFR resource can specify a 'LanguagePreferredList' element such as the following:",standard
+"Sampling procedures and the frequency of hardness testing shall be fully detailed on the purchase agreement. Otherwise, hardness tests shall be performed at the discretion of the producer.",standard
+All units and assemblies shall be carefully boxed and braced to prevent damage during shipment or field storage.,requirement
+"Construct a permeable base course of aggregate, portland cement concrete, and water mixed in
+a central plant and spread and compacted on a prepared foundation.",standard
+"While tracking at nominal tracking rates over the accessible elevation range, the Dish shall be capable of executing a 10° step in either mount axis or combined, in less than 12 seconds (TBC).",requirement
+"The steel shall be killed steel, with the primary melting process being open-hearth, basic-oxygen, or electric-furnace, possibly combined with separate degassing or refining. If secondary melting, using electroslag remelting or vacuum-arc remelting is subsequently employed, the heat shall be defined as all of the ingots remelted from a single primary heat",standard
+ The bucker station vrollers shall lower and allow each pipe to gravity roll towards the next station. ,requirement
+"When commanded, CSP_Mid.CBF shall format and transmit visibility packets to SDP according to the Interface
+ID I.S1M.SDP_CSP.001 section of the MID SDP to CSP ICD.",requirement
+"The values stated in either SI units or inch-pound units are to be regarded separately as standard. The values stated in each system may not be exact equivalents; therefore, each system shall be used independently of the other. Combining values from the two systems may result in nonconformance with the standard.",standard
+aluminum structure will be clear coat anodized.,requirement
+"Restrict operation of vehicles or equipment on the treated course for a
+minimum 7-day cure period after final finish rolling. Unless the contract specifies an asphalt
+curing seal, keep the surface lightly moistened during the curing period to prevent drying.",standard
+"Unless otherwise stated in the contract or order, the cleaning, preservation, and packing of castings for shipment shall be in accordance with the manufacturer’s commercial practice. Packaging and marking shall also be adequate to identify the contents and to ensure acceptance and safe delivery by the carrier for the mode of transportation employed.",standard
+"Where the nondestructive electric test is performed, the lengths shall be marked with the letters “NDE.” The certification, where required, shall state “Nondestructive Elec_x0002_tric Tested” and shall indicate which of the tests was applied. Also, the letters “NDE” shall be appended to the product specification number and material grade shown on the certifi_x0002_cation.",standard
+The definition of precision is shown in 3.4.2. LL corresponds to true positive samples; the sum of LL and Les corresponds to the sample judged as positive by the algorithm,standard
+Yarn Guides shall be provided along the Creel length to guide yarn to the creel exit to prevent tangling and maintain take-off position to combs Each yarn guide shall be adjustable across the sheet width.,requirement
+the workstation shall be designed to eliminate a turn at the waist of the operator every cycle.,requirement
+The Devices API supports the ability to retrieve and interact with the OCF Devices that are within the scope of the provided Bearer Token,standard
